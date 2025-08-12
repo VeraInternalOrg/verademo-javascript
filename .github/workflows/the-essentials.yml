@@ -62,7 +62,7 @@ jobs:
           java -jar /opt/veracode/api-wrapper.jar \
             -vid ${{ secrets.VERACODE_API_ID }} -vkey ${{ secrets.VERACODE_API_KEY }} \
             -action UploadAndScan \
-            -appname "Verademo-javascript" -createprofile false \
+            -appname "Verademo-javascript" -createprofile true \
             -filepath verademo.zip -version "GitHub $GITHUB_RUN_NUMBER"
         continue-on-error: true
 
