@@ -1,6 +1,7 @@
 node_modules/
 resources/*
 .vscode/*
+.idea/*
 
 # veracode cli-created package
 verademo-javascript.zip

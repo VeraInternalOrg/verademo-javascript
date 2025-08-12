@@ -1,0 +1,101 @@
+name: pipeline-scan
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: setup node
+        uses: actions/setup-node@v4
+        with: 
+          node-version: '20.14.0'
+
+      - name: Zip app files
+        run: | 
+          rm -rf verademo-js.zip
+          zip -r verademo-js.zip .
+
+      - name: save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          path: verademo-js.zip
+          name: verademo-js.zip
+          
+
+  pipeline_scan:
+    needs: build
+    runs-on: ubuntu-latest
+    name: pipeline scan
+
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v4
+      
+      # get the compiled binary from a previous job
+      - name: get archive
+        uses: actions/download-artifact@v4
+        with:
+          name: verademo-js.zip
+
+      # run the pipeline scan action
+      - name: pipeline-scan action step
+        id: pipeline-scan
+        uses: veracode/Veracode-pipeline-scan-action@v1.0.12
+        with:
+          vid: ${{ secrets.VERACODE_API_ID }}
+          vkey: ${{ secrets.VERACODE_API_KEY }}
+          file: "verademo-js.zip"
+          fail_build: true
+
+  sca-scan:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.3.0'
+
+      - name: do SCA scan
+        env:
+          SRCCLR_API_TOKEN: ${{ secrets.SRCCLR_API_TOKEN }}
+        uses: veracode/veracode-sca@v2.1.12
+        with:
+          create-issues: false
+
+      - name: display SCA results
+        run: |
+          cat scaResults.txt
+  container-scan:
+    needs: build    # OK not really, but keeps things cleaner
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.3.0'
+
+      - name: do container scan
+        uses: veracode/container_iac_secrets_scanning@v1.0.3
+        with:
+          vid: ${{ secrets.VERACODE_API_ID }}
+          vkey: ${{ secrets.VERACODE_API_KEY }}
+          command: "scan" 
+          type: "directory"
+          source: "."
+          format: "table"
