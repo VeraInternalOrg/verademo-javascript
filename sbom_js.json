@@ -1,0 +1,5565 @@
+{
+  "$schema" : "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "serialNumber" : "urn:uuid:07d3e57c-f2e7-4123-8700-b45cbd52beb8",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-07-30T13:03:48.964Z",
+    "tools" : [ {
+      "vendor" : "Veracode Inc",
+      "name" : "sca"
+    } ],
+    "component" : {
+      "type" : "application",
+      "group" : "nodejs",
+      "name" : "",
+      "scope" : "required",
+      "purl" : "pkg:null/nodejs/null@22.17.0",
+      "externalReferences" : [ ]
+    },
+    "properties" : [ {
+      "name" : "fullReportDetailsUrl",
+      "value" : "https://sca.analysiscenter.veracode.com/teams/900t7XpA/scans/94914009"
+    } ]
+  },
+  "components" : [ {
+    "type" : "library",
+    "bom-ref" : "npm:source-map::0.1.34:",
+    "name" : "source-map",
+    "version" : "0.1.34",
+    "description" : "Generates and consumes source maps",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-3-Clause",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/source-map@0.1.34",
+    "externalReferences" : [ {
+      "url" : "git+ssh://git@github.com/mozilla/source-map.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:sqlstring::2.3.1:",
+    "name" : "sqlstring",
+    "version" : "2.3.1",
+    "description" : "Simple SQL escape and format for MySQL",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/sqlstring@2.3.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/mysqljs/sqlstring.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:morgan::1.9.1:",
+    "name" : "morgan",
+    "version" : "1.9.1",
+    "description" : "HTTP request logger middleware for node.js",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/morgan@1.9.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/expressjs/morgan.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:axios::0.18.0:",
+    "name" : "axios",
+    "version" : "0.18.0",
+    "description" : "Promise based HTTP client for the browser and node.js",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/axios@0.18.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/axios/axios.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:content-disposition::0.5.4:",
+    "name" : "content-disposition",
+    "version" : "0.5.4",
+    "description" : "Create and parse Content-Disposition header",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/content-disposition@0.5.4",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/content-disposition.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:wordwrap::0.0.2:",
+    "name" : "wordwrap",
+    "version" : "0.0.2",
+    "description" : "Wrap those words. Show them at what columns to start and stop.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/wordwrap@0.0.2",
+    "externalReferences" : [ {
+      "url" : "git://github.com/substack/node-wordwrap.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:window-size::0.1.0:",
+    "name" : "window-size",
+    "version" : "0.1.0",
+    "description" : "Reliable way to get the height and width of terminal/console, since it's not calculated or updated the same way on all platforms, environments and node.js versions.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/window-size@0.1.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jonschlinkert/window-size.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:on-finished::2.3.0:",
+    "name" : "on-finished",
+    "version" : "2.3.0",
+    "description" : "Execute a callback when a request closes, finishes, or errors",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/on-finished@2.3.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/on-finished.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:ms::2.0.0:",
+    "name" : "ms",
+    "version" : "2.0.0",
+    "description" : "Tiny millisecond conversion utility",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/ms@2.0.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/vercel/ms.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:basic-auth::2.0.1:",
+    "name" : "basic-auth",
+    "version" : "2.0.1",
+    "description" : "node.js basic auth parser",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/basic-auth@2.0.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/basic-auth.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:express-session::1.18.0:",
+    "name" : "express-session",
+    "version" : "1.18.0",
+    "description" : "Simple session middleware for Express",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/express-session@1.18.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/expressjs/session.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:on-finished::2.4.1:",
+    "name" : "on-finished",
+    "version" : "2.4.1",
+    "description" : "Execute a callback when a request closes, finishes, or errors",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/on-finished@2.4.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/on-finished.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:buffer-from::1.1.2:",
+    "name" : "buffer-from",
+    "version" : "1.1.2",
+    "description" : "A [ponyfill](https://ponyfill.com) for `Buffer.from`, uses native implementation if available.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/buffer-from@1.1.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/LinusU/buffer-from.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:uglify-to-browserify::1.0.2:",
+    "name" : "uglify-to-browserify",
+    "version" : "1.0.2",
+    "description" : "A transform to make UglifyJS work in browserify.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/uglify-to-browserify@1.0.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/ForbesLindesay/uglify-to-browserify.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:object-inspect::1.13.1:",
+    "name" : "object-inspect",
+    "version" : "1.13.1",
+    "description" : "string representations of objects in node and the browser",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/object-inspect@1.13.1",
+    "externalReferences" : [ {
+      "url" : "git://github.com/inspect-js/object-inspect.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:content-type::1.0.5:",
+    "name" : "content-type",
+    "version" : "1.0.5",
+    "description" : "Create and parse HTTP Content-Type header",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/content-type@1.0.5",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/content-type.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:encodeurl::1.0.2:",
+    "name" : "encodeurl",
+    "version" : "1.0.2",
+    "description" : "Encode a URL to a percent-encoded form, excluding already-encoded sequences",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/encodeurl@1.0.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/pillarjs/encodeurl.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:side-channel::1.0.6:",
+    "name" : "side-channel",
+    "version" : "1.0.6",
+    "description" : "Store information about any JS value in a side channel. Uses WeakMap if available.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/side-channel@1.0.6",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/ljharb/side-channel.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:depd::2.0.0:",
+    "name" : "depd",
+    "version" : "2.0.0",
+    "description" : "Deprecate all the things",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/depd@2.0.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/dougwilson/nodejs-depd.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:wordwrap::0.0.3:",
+    "name" : "wordwrap",
+    "version" : "0.0.3",
+    "description" : "Wrap those words. Show them at what columns to start and stop.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/wordwrap@0.0.3",
+    "externalReferences" : [ {
+      "url" : "git://github.com/substack/node-wordwrap.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:raw-body::2.5.2:",
+    "name" : "raw-body",
+    "version" : "2.5.2",
+    "description" : "Get and validate the raw body of a readable stream.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/raw-body@2.5.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/stream-utils/raw-body.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:media-typer::0.3.0:",
+    "name" : "media-typer",
+    "version" : "0.3.0",
+    "description" : "Simple RFC 6838 media type parser and formatter",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/media-typer@0.3.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/media-typer.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:cookie::0.6.0:",
+    "name" : "cookie",
+    "version" : "0.6.0",
+    "description" : "HTTP server cookie parsing and serialization",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/cookie@0.6.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/cookie.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:isarray::1.0.0:",
+    "name" : "isarray",
+    "version" : "1.0.0",
+    "description" : "Array#isArray for older browsers",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/isarray@1.0.0",
+    "externalReferences" : [ {
+      "url" : "git://github.com/juliangruber/isarray.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:walk::2.3.15:",
+    "name" : "walk",
+    "version" : "2.3.15",
+    "description" : "A node port of python's os.walk",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/walk@2.3.15",
+    "externalReferences" : [ {
+      "url" : "https://git.coolaj86.com/coolaj86/fs-walk.js.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:append-field::1.0.0:",
+    "name" : "append-field",
+    "version" : "1.0.0",
+    "description" : "A [W3C HTML JSON forms spec](http://www.w3.org/TR/html-json-forms/) compliant field appender (for lack of a better name). Useful for people implementing `application/x-www-form-urlencoded` and `multip",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/append-field@1.0.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/LinusU/node-append-field.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:yargs::3.5.4:",
+    "name" : "yargs",
+    "version" : "3.5.4",
+    "description" : "yargs the modern, pirate-themed, successor to optimist.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/yargs@3.5.4",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/yargs/yargs.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:amdefine::1.0.1:",
+    "name" : "amdefine",
+    "version" : "1.0.1",
+    "description" : "Provide AMD's define() API for declaring modules in the AMD format",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-3-Clause",
+        "url" : ""
+      }
+    }, {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/amdefine@1.0.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jrburke/amdefine.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:nodemailer::6.9.14:",
+    "name" : "nodemailer",
+    "version" : "6.9.14",
+    "description" : "Easy as cake e-mail sending from your Node.js applications",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT-0",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/nodemailer@6.9.14",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/nodemailer/nodemailer.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:has-property-descriptors::1.0.2:",
+    "name" : "has-property-descriptors",
+    "version" : "1.0.2",
+    "description" : "Does the environment have full property descriptor support? Handles IE 8's broken defineProperty/gOPD.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/has-property-descriptors@1.0.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/inspect-js/has-property-descriptors.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:process-nextick-args::2.0.1:",
+    "name" : "process-nextick-args",
+    "version" : "2.0.1",
+    "description" : "process.nextTick but always with args",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/process-nextick-args@2.0.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/calvinmetcalf/process-nextick-args.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:safe-buffer::5.2.1:",
+    "name" : "safe-buffer",
+    "version" : "5.2.1",
+    "description" : "Safer Node.js Buffer API",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/safe-buffer@5.2.1",
+    "externalReferences" : [ {
+      "url" : "git://github.com/feross/safe-buffer.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:pyformat::1.0.0-0:",
+    "name" : "pyformat",
+    "version" : "1.0.0-0",
+    "description" : "Simple Python-style string formatting for JS",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/pyformat@1.0.0-0",
+    "externalReferences" : [ {
+      "url" : "git://github.com/thomblake/pyformat.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:mime-types::2.1.35:",
+    "name" : "mime-types",
+    "version" : "2.1.35",
+    "description" : "The ultimate javascript content-type utility.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/mime-types@2.1.35",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/mime-types.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:decamelize::1.2.0:",
+    "name" : "decamelize",
+    "version" : "1.2.0",
+    "description" : "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/decamelize@1.2.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/sindresorhus/decamelize.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:doc-path::2.1.1:",
+    "name" : "doc-path",
+    "version" : "2.1.1",
+    "description" : "A document path library for Node",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/doc-path@2.1.1",
+    "externalReferences" : [ {
+      "url" : "git+ssh://git@github.com/mrodrig/doc-path.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:ee-first::1.1.1:",
+    "name" : "ee-first",
+    "version" : "1.1.1",
+    "description" : "return the first event in a set of ee/event pairs",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/ee-first@1.1.1",
+    "externalReferences" : [ {
+      "url" : "https://github.com/jonathanong/ee-first",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:mime-db::1.52.0:",
+    "name" : "mime-db",
+    "version" : "1.52.0",
+    "description" : "Media Type Database",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/mime-db@1.52.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/mime-db.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:mime::1.6.0:",
+    "name" : "mime",
+    "version" : "1.6.0",
+    "description" : "A comprehensive library for mime-type mapping",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/mime@1.6.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/broofa/mime.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:proxy-addr::2.0.7:",
+    "name" : "proxy-addr",
+    "version" : "2.0.7",
+    "description" : "Determine address of proxied request",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/proxy-addr@2.0.7",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/proxy-addr.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:minimist::0.0.10:",
+    "name" : "minimist",
+    "version" : "0.0.10",
+    "description" : "parse argument options",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/minimist@0.0.10",
+    "externalReferences" : [ {
+      "url" : "git://github.com/minimistjs/minimist.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:ms::2.1.3:",
+    "name" : "ms",
+    "version" : "2.1.3",
+    "description" : "Tiny millisecond conversion utility",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/ms@2.1.3",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/vercel/ms.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:utils-merge::1.0.1:",
+    "name" : "utils-merge",
+    "version" : "1.0.1",
+    "description" : "merge() utility function",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/utils-merge@1.0.1",
+    "externalReferences" : [ {
+      "url" : "git://github.com/jaredhanson/utils-merge.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:es-define-property::1.0.0:",
+    "name" : "es-define-property",
+    "version" : "1.0.0",
+    "description" : "`Object.defineProperty`, but not IE 8's broken one.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/es-define-property@1.0.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/ljharb/es-define-property.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:cookie::0.4.1:",
+    "name" : "cookie",
+    "version" : "0.4.1",
+    "description" : "HTTP server cookie parsing and serialization",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/cookie@0.4.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/cookie.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:busboy::1.6.0:",
+    "name" : "busboy",
+    "version" : "1.6.0",
+    "description" : "A streaming parser for HTML form data for node.js",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/busboy@1.6.0",
+    "externalReferences" : [ {
+      "url" : "git+ssh://git@github.com/mscdex/busboy.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:mysql::2.18.1:",
+    "name" : "mysql",
+    "version" : "2.18.1",
+    "description" : "A node.js driver for mysql. It is written in JavaScript, does not require compiling, and is 100% MIT licensed.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/mysql@2.18.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/mysqljs/mysql.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:toidentifier::1.0.1:",
+    "name" : "toidentifier",
+    "version" : "1.0.1",
+    "description" : "Convert a string of words to a JavaScript identifier",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/toidentifier@1.0.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/component/toidentifier.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:async::0.2.10:",
+    "name" : "async",
+    "version" : "0.2.10",
+    "description" : "Higher-order functions and common patterns for asynchronous code",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/async@0.2.10",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/caolan/async.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:http-errors::2.0.0:",
+    "name" : "http-errors",
+    "version" : "2.0.0",
+    "description" : "Create HTTP error objects",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/http-errors@2.0.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/http-errors.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:neo-async::2.6.2:",
+    "name" : "neo-async",
+    "version" : "2.6.2",
+    "description" : "Neo-Async is a drop-in replacement for Async, it almost fully covers its functionality and runs faster ",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/neo-async@2.6.2",
+    "externalReferences" : [ {
+      "url" : "git+ssh://git@github.com/suguru03/neo-async.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:escape-html::1.0.3:",
+    "name" : "escape-html",
+    "version" : "1.0.3",
+    "description" : "Escape string for use in HTML",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/escape-html@1.0.3",
+    "externalReferences" : [ {
+      "url" : "https://github.com/component/escape-html",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:mkdirp::0.5.6:",
+    "name" : "mkdirp",
+    "version" : "0.5.6",
+    "description" : "Recursively mkdir, like `mkdir -p`",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/mkdirp@0.5.6",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/isaacs/node-mkdirp.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:inherits::2.0.3:",
+    "name" : "inherits",
+    "version" : "2.0.3",
+    "description" : "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "ISC",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/inherits@2.0.3",
+    "externalReferences" : [ {
+      "url" : "git://github.com/isaacs/inherits.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:minimist::1.2.8:",
+    "name" : "minimist",
+    "version" : "1.2.8",
+    "description" : "parse argument options",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/minimist@1.2.8",
+    "externalReferences" : [ {
+      "url" : "git://github.com/minimistjs/minimist.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:cookie-signature::1.0.7:",
+    "name" : "cookie-signature",
+    "version" : "1.0.7",
+    "description" : "Sign and unsign cookies",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/cookie-signature@1.0.7",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/visionmedia/node-cookie-signature.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:is-buffer::1.1.6:",
+    "name" : "is-buffer",
+    "version" : "1.1.6",
+    "description" : "Determine if an object is a Buffer",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/is-buffer@1.1.6",
+    "externalReferences" : [ {
+      "url" : "git://github.com/feross/is-buffer.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:bytes::3.1.2:",
+    "name" : "bytes",
+    "version" : "3.1.2",
+    "description" : "Utility to parse a string bytes to bytes and vice-versa",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/bytes@3.1.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/visionmedia/bytes.js.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:methods::1.1.2:",
+    "name" : "methods",
+    "version" : "1.1.2",
+    "description" : "HTTP methods that node supports",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/methods@1.1.2",
+    "externalReferences" : [ {
+      "url" : "https://github.com/jshttp/methods",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:bignumber.js::9.0.0:",
+    "name" : "bignumber.js",
+    "version" : "9.0.0",
+    "description" : "A library for arbitrary-precision decimal and non-decimal arithmetic",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/bignumber.js@9.0.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/MikeMcl/bignumber.js.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:core-util-is::1.0.3:",
+    "name" : "core-util-is",
+    "version" : "1.0.3",
+    "description" : "The `util.is*` functions introduced in Node v0.12.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/core-util-is@1.0.3",
+    "externalReferences" : [ {
+      "url" : "git://github.com/isaacs/core-util-is.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:typedarray::0.0.6:",
+    "name" : "typedarray",
+    "version" : "0.0.6",
+    "description" : "TypedArray polyfill for old browsers",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/typedarray@0.0.6",
+    "externalReferences" : [ {
+      "url" : "git://github.com/es-shims/typedarray.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:string_decoder::1.1.1:",
+    "name" : "string_decoder",
+    "version" : "1.1.1",
+    "description" : "The string_decoder module from Node core",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/string_decoder@1.1.1",
+    "externalReferences" : [ {
+      "url" : "git://github.com/nodejs/string_decoder.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:call-bind::1.0.7:",
+    "name" : "call-bind",
+    "version" : "1.0.7",
+    "description" : "Robustly `.call.bind()` a function",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/call-bind@1.0.7",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/ljharb/call-bind.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:readable-stream::2.3.8:",
+    "name" : "readable-stream",
+    "version" : "2.3.8",
+    "description" : "Node.js Streams, a user-land copy of the stream library from Node.js",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/readable-stream@2.3.8",
+    "externalReferences" : [ {
+      "url" : "git://github.com/nodejs/readable-stream.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:multer::1.4.5-lts.1:",
+    "name" : "multer",
+    "version" : "1.4.5-lts.1",
+    "description" : "Middleware for handling `multipart/form-data`.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/multer@1.4.5-lts.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/expressjs/multer.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:http-errors::1.6.3:",
+    "name" : "http-errors",
+    "version" : "1.6.3",
+    "description" : "Create HTTP error objects",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/http-errors@1.6.3",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/http-errors.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:body-parser::1.20.2:",
+    "name" : "body-parser",
+    "version" : "1.20.2",
+    "description" : "Node.js body parsing middleware",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/body-parser@1.20.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/expressjs/body-parser.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:iconv-lite::0.4.24:",
+    "name" : "iconv-lite",
+    "version" : "0.4.24",
+    "description" : "Convert character encodings in pure javascript.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/iconv-lite@0.4.24",
+    "externalReferences" : [ {
+      "url" : "git://github.com/ashtuchkin/iconv-lite.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:negotiator::0.6.3:",
+    "name" : "negotiator",
+    "version" : "0.6.3",
+    "description" : "HTTP content negotiation",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/negotiator@0.6.3",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/negotiator.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:unpipe::1.0.0:",
+    "name" : "unpipe",
+    "version" : "1.0.0",
+    "description" : "Unpipe a stream from all destinations",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/unpipe@1.0.0",
+    "externalReferences" : [ {
+      "url" : "https://github.com/stream-utils/unpipe",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:qs::6.11.0:",
+    "name" : "qs",
+    "version" : "6.11.0",
+    "description" : "A querystring parser that supports nesting and arrays, with a depth limit",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-3-Clause",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/qs@6.11.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/ljharb/qs.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:camelcase::1.2.1:",
+    "name" : "camelcase",
+    "version" : "1.2.1",
+    "description" : "Convert a dash/dot/underscore/space separated string to camelCase or PascalCase: `foo-bar` → `fooBar`",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/camelcase@1.2.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/sindresorhus/camelcase.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:streamsearch::1.1.0:",
+    "name" : "streamsearch",
+    "version" : "1.1.0",
+    "description" : "Streaming Boyer-Moore-Horspool searching for node.js",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/streamsearch@1.1.0",
+    "externalReferences" : [ {
+      "url" : "git+ssh://git@github.com/mscdex/streamsearch.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:moment::2.30.1:",
+    "name" : "moment",
+    "version" : "2.30.1",
+    "description" : "Parse, validate, manipulate, and display dates",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/moment@2.30.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/moment/moment.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:serve-static::1.15.0:",
+    "name" : "serve-static",
+    "version" : "1.15.0",
+    "description" : "Serve static files",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/serve-static@1.15.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/expressjs/serve-static.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:hasown::2.0.2:",
+    "name" : "hasown",
+    "version" : "2.0.2",
+    "description" : "A robust, ES3 compatible, \"has own property\" predicate.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/hasown@2.0.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/inspect-js/hasOwn.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:array-flatten::1.1.1:",
+    "name" : "array-flatten",
+    "version" : "1.1.1",
+    "description" : "Flatten nested arrays",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/array-flatten@1.1.1",
+    "externalReferences" : [ {
+      "url" : "git://github.com/blakeembrey/array-flatten.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:safer-buffer::2.1.2:",
+    "name" : "safer-buffer",
+    "version" : "2.1.2",
+    "description" : "Modern Buffer API polyfill without footguns",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/safer-buffer@2.1.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/ChALkeR/safer-buffer.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:define-data-property::1.1.4:",
+    "name" : "define-data-property",
+    "version" : "1.1.4",
+    "description" : "Define a data property on an object. Will fall back to assignment in an engine without descriptors.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/define-data-property@1.1.4",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/ljharb/define-data-property.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:debug::2.6.9:",
+    "name" : "debug",
+    "version" : "2.6.9",
+    "description" : "Lightweight debugging utility for Node.js and the browser",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/debug@2.6.9",
+    "externalReferences" : [ {
+      "url" : "git://github.com/debug-js/debug.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:cookie-parser::1.4.6:",
+    "name" : "cookie-parser",
+    "version" : "1.4.6",
+    "description" : "Parse HTTP request cookies",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/cookie-parser@1.4.6",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/expressjs/cookie-parser.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:readable-stream::2.3.7:",
+    "name" : "readable-stream",
+    "version" : "2.3.7",
+    "description" : "Node.js Streams, a user-land copy of the stream library from Node.js",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/readable-stream@2.3.7",
+    "externalReferences" : [ {
+      "url" : "git://github.com/nodejs/readable-stream.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:concat-stream::1.6.2:",
+    "name" : "concat-stream",
+    "version" : "1.6.2",
+    "description" : "writable stream that concatenates strings or binary data and calls a callback with the result",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/concat-stream@1.6.2",
+    "externalReferences" : [ {
+      "url" : "git+ssh://git@github.com/maxogden/concat-stream.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:hbs::4.2.0:",
+    "name" : "hbs",
+    "version" : "4.2.0",
+    "description" : "Express.js template engine plugin for Handlebars",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/hbs@4.2.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/pillarjs/hbs.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:path-to-regexp::0.1.7:",
+    "name" : "path-to-regexp",
+    "version" : "0.1.7",
+    "description" : "Express style path to RegExp utility",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/path-to-regexp@0.1.7",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/pillarjs/path-to-regexp.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:accepts::1.3.8:",
+    "name" : "accepts",
+    "version" : "1.3.8",
+    "description" : "Higher-level content negotiation",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/accepts@1.3.8",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/accepts.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:async::3.2.5:",
+    "name" : "async",
+    "version" : "3.2.5",
+    "description" : "Higher-order functions and common patterns for asynchronous code",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/async@3.2.5",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/caolan/async.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:dotenv::16.4.5:",
+    "name" : "dotenv",
+    "version" : "16.4.5",
+    "description" : "Loads environment variables from .env file",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-2-Clause",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/dotenv@16.4.5",
+    "externalReferences" : [ {
+      "url" : "git://github.com/motdotla/dotenv.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:util-deprecate::1.0.2:",
+    "name" : "util-deprecate",
+    "version" : "1.0.2",
+    "description" : "The Node.js `util.deprecate()` function with browser support",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/util-deprecate@1.0.2",
+    "externalReferences" : [ {
+      "url" : "git://github.com/TooTallNate/util-deprecate.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:send::0.18.0:",
+    "name" : "send",
+    "version" : "0.18.0",
+    "description" : "Better streaming static file server with Range and conditional-GET support",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/send@0.18.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/pillarjs/send.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:uglify-js::2.4.24:",
+    "name" : "uglify-js",
+    "version" : "2.4.24",
+    "description" : "JavaScript parser, mangler/compressor and beautifier toolkit",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-3-Clause",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/uglify-js@2.4.24",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/mishoo/UglifyJS.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:etag::1.8.1:",
+    "name" : "etag",
+    "version" : "1.8.1",
+    "description" : "Create simple HTTP ETags",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/etag@1.8.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/etag.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:follow-redirects::1.15.6:",
+    "name" : "follow-redirects",
+    "version" : "1.15.6",
+    "description" : "HTTP and HTTPS modules that follow redirects.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/follow-redirects@1.15.6",
+    "externalReferences" : [ {
+      "url" : "git+ssh://git@github.com/follow-redirects/follow-redirects.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:xtend::4.0.2:",
+    "name" : "xtend",
+    "version" : "4.0.2",
+    "description" : "extend like a boss",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/xtend@4.0.2",
+    "externalReferences" : [ {
+      "url" : "git://github.com/Raynos/xtend.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:swig::1.4.2:",
+    "name" : "swig",
+    "version" : "1.4.2",
+    "description" : "A simple, powerful, and extendable templating engine for node.js and browsers, similar to Django, Jinja2, and Twig.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/swig@1.4.2",
+    "externalReferences" : [ {
+      "url" : "http://github.com/paularmstrong/swig.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:handlebars::4.7.7:",
+    "name" : "handlebars",
+    "version" : "4.7.7",
+    "description" : "Handlebars provides the power necessary to let you build semantic templates effectively with no frustration",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/handlebars@4.7.7",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/handlebars-lang/handlebars.js.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:on-headers::1.0.2:",
+    "name" : "on-headers",
+    "version" : "1.0.2",
+    "description" : "Execute a listener when a response is about to write headers",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/on-headers@1.0.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/on-headers.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:source-map::0.6.1:",
+    "name" : "source-map",
+    "version" : "0.6.1",
+    "description" : "Generates and consumes source maps",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-3-Clause",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/source-map@0.6.1",
+    "externalReferences" : [ {
+      "url" : "git+ssh://git@github.com/mozilla/source-map.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:validator::13.5.2:",
+    "name" : "validator",
+    "version" : "13.5.2",
+    "description" : "String validation and sanitization",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/validator@13.5.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/validatorjs/validator.js.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:cookie-signature::1.0.6:",
+    "name" : "cookie-signature",
+    "version" : "1.0.6",
+    "description" : "Sign and unsign cookies",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/cookie-signature@1.0.6",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/visionmedia/node-cookie-signature.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:has-symbols::1.0.3:",
+    "name" : "has-symbols",
+    "version" : "1.0.3",
+    "description" : "Determine if the JS environment has Symbol support. Supports spec, or shams.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/has-symbols@1.0.3",
+    "externalReferences" : [ {
+      "url" : "git://github.com/inspect-js/has-symbols.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:type-is::1.6.18:",
+    "name" : "type-is",
+    "version" : "1.6.18",
+    "description" : "Infer the content-type of a request.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/type-is@1.6.18",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/type-is.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:inherits::2.0.4:",
+    "name" : "inherits",
+    "version" : "2.0.4",
+    "description" : "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "ISC",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/inherits@2.0.4",
+    "externalReferences" : [ {
+      "url" : "git://github.com/isaacs/inherits.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:depd::1.1.2:",
+    "name" : "depd",
+    "version" : "1.1.2",
+    "description" : "Deprecate all the things",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/depd@1.1.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/dougwilson/nodejs-depd.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:express::4.19.2:",
+    "name" : "express",
+    "version" : "4.19.2",
+    "description" : "Fast, unopinionated, minimalist web framework",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/express@4.19.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/expressjs/express.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:base32.js::0.0.1:",
+    "name" : "base32.js",
+    "version" : "0.0.1",
+    "description" : "Base 32 encodings for JavaScript",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/base32.js@0.0.1",
+    "externalReferences" : [ {
+      "url" : "git://github.com/mikepb/base32.js.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:wordwrap::1.0.0:",
+    "name" : "wordwrap",
+    "version" : "1.0.0",
+    "description" : "Wrap those words. Show them at what columns to start and stop.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/wordwrap@1.0.0",
+    "externalReferences" : [ {
+      "url" : "git://github.com/substack/node-wordwrap.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:es-errors::1.3.0:",
+    "name" : "es-errors",
+    "version" : "1.3.0",
+    "description" : "A simple cache for a few of the JS Error constructors.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/es-errors@1.3.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/ljharb/es-errors.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:ipaddr.js::1.9.1:",
+    "name" : "ipaddr.js",
+    "version" : "1.9.1",
+    "description" : "A library for manipulating IPv4 and IPv6 addresses in JavaScript.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/ipaddr.js@1.9.1",
+    "externalReferences" : [ {
+      "url" : "git://github.com/whitequark/ipaddr.js.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:function-bind::1.1.2:",
+    "name" : "function-bind",
+    "version" : "1.1.2",
+    "description" : "Implementation of Function.prototype.bind",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/function-bind@1.1.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/Raynos/function-bind.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:statuses::2.0.1:",
+    "name" : "statuses",
+    "version" : "2.0.1",
+    "description" : "HTTP status utility",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/statuses@2.0.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/statuses.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "manual:nodejs:null:22.17.0",
+    "name" : "nodejs",
+    "scope" : "required",
+    "purl" : "pkg:null/nodejs/null@22.17.0",
+    "externalReferences" : [ ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:setprototypeof::1.2.0:",
+    "name" : "setprototypeof",
+    "version" : "1.2.0",
+    "description" : "A small polyfill for Object.setprototypeof",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "ISC",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/setprototypeof@1.2.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/wesleytodd/setprototypeof.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:gopd::1.0.1:",
+    "name" : "gopd",
+    "version" : "1.0.1",
+    "description" : "`Object.getOwnPropertyDescriptor`, but accounts for IE's broken implementation.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/gopd@1.0.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/ljharb/gopd.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:merge-descriptors::1.0.1:",
+    "name" : "merge-descriptors",
+    "version" : "1.0.1",
+    "description" : "Merge objects using their property descriptors",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/merge-descriptors@1.0.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/sindresorhus/merge-descriptors.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:get-intrinsic::1.2.4:",
+    "name" : "get-intrinsic",
+    "version" : "1.2.4",
+    "description" : "Get and robustly cache all JS language-level intrinsics at first require time",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/get-intrinsic@1.2.4",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/ljharb/get-intrinsic.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:parseurl::1.3.3:",
+    "name" : "parseurl",
+    "version" : "1.3.3",
+    "description" : "parse a url with memoization",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/parseurl@1.3.3",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/pillarjs/parseurl.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:speakeasy::2.0.0:",
+    "name" : "speakeasy",
+    "version" : "2.0.0",
+    "description" : "Two-factor authentication for Node.js. One-time passcode generator (HOTP/TOTP) with support for Google Authenticator.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/speakeasy@2.0.0",
+    "externalReferences" : [ {
+      "url" : "git://github.com/speakeasyjs/speakeasy.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:lodash::4.17.15:",
+    "name" : "lodash",
+    "version" : "4.17.15",
+    "description" : "Lodash modular utilities.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/lodash@4.17.15",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/lodash/lodash.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:has-proto::1.0.3:",
+    "name" : "has-proto",
+    "version" : "1.0.3",
+    "description" : "Does this environment have the ability to get the [[Prototype]] of an object on creation with `__proto__`?",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/has-proto@1.0.3",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/inspect-js/has-proto.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:semver::7.6.2:",
+    "name" : "semver",
+    "version" : "7.6.2",
+    "description" : "The semantic version parser used by npm.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "ISC",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/semver@7.6.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/npm/node-semver.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:object-assign::4.1.1:",
+    "name" : "object-assign",
+    "version" : "4.1.1",
+    "description" : "ES2015 `Object.assign()` ponyfill",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/object-assign@4.1.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/sindresorhus/object-assign.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:finalhandler::1.2.0:",
+    "name" : "finalhandler",
+    "version" : "1.2.0",
+    "description" : "Node.js final http responder",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/finalhandler@1.2.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/pillarjs/finalhandler.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:statuses::1.4.0:",
+    "name" : "statuses",
+    "version" : "1.4.0",
+    "description" : "HTTP status utility",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/statuses@1.4.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/statuses.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:safe-eval::0.3.0:",
+    "name" : "safe-eval",
+    "version" : "0.3.0",
+    "description" : "Safer version of eval()",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/safe-eval@0.3.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/hacksparrow/safe-eval.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:set-function-length::1.2.2:",
+    "name" : "set-function-length",
+    "version" : "1.2.2",
+    "description" : "Set a function's length property",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/set-function-length@1.2.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/ljharb/set-function-length.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:fresh::0.5.2:",
+    "name" : "fresh",
+    "version" : "0.5.2",
+    "description" : "HTTP response freshness testing",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/fresh@0.5.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/fresh.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:destroy::1.2.0:",
+    "name" : "destroy",
+    "version" : "1.2.0",
+    "description" : "destroy a stream if possible",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/destroy@1.2.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/stream-utils/destroy.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:optimist::0.6.1:",
+    "name" : "optimist",
+    "version" : "0.6.1",
+    "description" : "Light-weight option parsing with an argv hash. No optstrings attached.",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/optimist@0.6.1",
+    "externalReferences" : [ {
+      "url" : "http://github.com/substack/node-optimist.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:range-parser::1.2.1:",
+    "name" : "range-parser",
+    "version" : "1.2.1",
+    "description" : "Range header field string parser",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/range-parser@1.2.1",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/range-parser.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:setprototypeof::1.1.0:",
+    "name" : "setprototypeof",
+    "version" : "1.1.0",
+    "description" : "A small polyfill for Object.setprototypeof",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "ISC",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/setprototypeof@1.1.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/wesleytodd/setprototypeof.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:vary::1.1.2:",
+    "name" : "vary",
+    "version" : "1.1.2",
+    "description" : "Manipulate the HTTP Vary header",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/vary@1.1.2",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/vary.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:forwarded::0.2.0:",
+    "name" : "forwarded",
+    "version" : "0.2.0",
+    "description" : "Parse HTTP X-Forwarded-For header",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/forwarded@0.2.0",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/jshttp/forwarded.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:random-bytes::1.0.0:",
+    "name" : "random-bytes",
+    "version" : "1.0.0",
+    "description" : "URL and cookie safe UIDs",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/random-bytes@1.0.0",
+    "externalReferences" : [ {
+      "url" : "https://github.com/crypto-utils/random-bytes",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:uid-safe::2.1.5:",
+    "name" : "uid-safe",
+    "version" : "2.1.5",
+    "description" : "URL and cookie safe UIDs",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/uid-safe@2.1.5",
+    "externalReferences" : [ {
+      "url" : "git+https://github.com/crypto-utils/uid-safe.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:foreachasync::3.0.0:",
+    "name" : "foreachasync",
+    "version" : "3.0.0",
+    "description" : "A node- and browser-ready async (now with promises) counterpart of Array.prototype.forEach",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/foreachasync@3.0.0",
+    "externalReferences" : [ {
+      "url" : "https://git.coolaj86.com/coolaj86/foreachasync.js.git",
+      "type" : "vcs"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "npm:safe-buffer::5.1.2:",
+    "name" : "safe-buffer",
+    "version" : "5.1.2",
+    "description" : "Safer Node.js Buffer API",
+    "scope" : "required",
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : ""
+      }
+    } ],
+    "purl" : "pkg:npm/safe-buffer@5.1.2",
+    "externalReferences" : [ {
+      "url" : "git://github.com/feross/safe-buffer.git",
+      "type" : "vcs"
+    } ]
+  } ],
+  "services" : [ ],
+  "externalReferences" : [ ],
+  "dependencies" : [ {
+    "ref" : "npm:safe-buffer:5.1.2:"
+  }, {
+    "ref" : "npm:multer:1.4.5-lts.1:",
+    "dependsOn" : [ "npm:concat-stream:1.6.2:", "npm:xtend:4.0.2:", "npm:busboy:1.6.0:", "npm:type-is:1.6.18:", "npm:object-assign:4.1.1:", "npm:mkdirp:0.5.6:", "npm:append-field:1.0.0:" ]
+  }, {
+    "ref" : "npm:async:0.2.10:"
+  }, {
+    "ref" : "npm:utils-merge:1.0.1:"
+  }, {
+    "ref" : "npm:wordwrap:0.0.3:"
+  }, {
+    "ref" : "npm:basic-auth:2.0.1:",
+    "dependsOn" : [ "npm:safe-buffer:5.1.2:" ]
+  }, {
+    "ref" : "npm:on-finished:2.4.1:",
+    "dependsOn" : [ "npm:ee-first:1.1.1:" ]
+  }, {
+    "ref" : "npm:iconv-lite:0.4.24:",
+    "dependsOn" : [ "npm:safer-buffer:2.1.2:" ]
+  }, {
+    "ref" : "npm:qs:6.11.0:",
+    "dependsOn" : [ "npm:side-channel:1.0.6:" ]
+  }, {
+    "ref" : "npm:neo-async:2.6.2:"
+  }, {
+    "ref" : "npm:mime:1.6.0:"
+  }, {
+    "ref" : "npm:type-is:1.6.18:",
+    "dependsOn" : [ "npm:mime-types:2.1.35:", "npm:media-typer:0.3.0:" ]
+  }, {
+    "ref" : "npm:on-headers:1.0.2:"
+  }, {
+    "ref" : "npm:finalhandler:1.2.0:",
+    "dependsOn" : [ "npm:unpipe:1.0.0:", "npm:encodeurl:1.0.2:", "npm:debug:2.6.9:", "npm:statuses:2.0.1:", "npm:escape-html:1.0.3:", "npm:parseurl:1.3.3:", "npm:on-finished:2.4.1:" ]
+  }, {
+    "ref" : "npm:merge-descriptors:1.0.1:"
+  }, {
+    "ref" : "npm:etag:1.8.1:"
+  }, {
+    "ref" : "npm:bignumber.js:9.0.0:"
+  }, {
+    "ref" : "npm:follow-redirects:1.15.6:"
+  }, {
+    "ref" : "npm:buffer-from:1.1.2:"
+  }, {
+    "ref" : "npm:safer-buffer:2.1.2:"
+  }, {
+    "ref" : "npm:range-parser:1.2.1:"
+  }, {
+    "ref" : "npm:wordwrap:1.0.0:"
+  }, {
+    "ref" : "npm:semver:7.6.2:"
+  }, {
+    "ref" : "npm:fresh:0.5.2:"
+  }, {
+    "ref" : "npm:http-errors:2.0.0:",
+    "dependsOn" : [ "npm:depd:2.0.0:", "npm:setprototypeof:1.2.0:", "npm:toidentifier:1.0.1:", "npm:statuses:2.0.1:", "npm:inherits:2.0.4:" ]
+  }, {
+    "ref" : "npm:escape-html:1.0.3:"
+  }, {
+    "ref" : "npm:parseurl:1.3.3:"
+  }, {
+    "ref" : "npm:mysql:2.18.1:",
+    "dependsOn" : [ "npm:bignumber.js:9.0.0:", "npm:sqlstring:2.3.1:", "npm:safe-buffer:5.1.2:", "npm:readable-stream:2.3.7:" ]
+  }, {
+    "ref" : "npm:minimist:0.0.10:"
+  }, {
+    "ref" : "npm:string_decoder:1.1.1:",
+    "dependsOn" : [ "npm:safe-buffer:5.1.2:" ]
+  }, {
+    "ref" : "npm:window-size:0.1.0:"
+  }, {
+    "ref" : "npm:has-proto:1.0.3:"
+  }, {
+    "ref" : "npm:uglify-js:2.4.24:",
+    "dependsOn" : [ "npm:source-map:0.1.34:", "npm:uglify-to-browserify:1.0.2:", "npm:yargs:3.5.4:", "npm:async:0.2.10:" ]
+  }, {
+    "ref" : "npm:setprototypeof:1.1.0:"
+  }, {
+    "ref" : "npm:readable-stream:2.3.8:",
+    "dependsOn" : [ "npm:core-util-is:1.0.3:", "npm:safe-buffer:5.1.2:", "npm:process-nextick-args:2.0.1:", "npm:string_decoder:1.1.1:", "npm:inherits:2.0.3:", "npm:isarray:1.0.0:", "npm:util-deprecate:1.0.2:" ]
+  }, {
+    "ref" : "npm:validator:13.5.2:"
+  }, {
+    "ref" : "npm:morgan:1.9.1:",
+    "dependsOn" : [ "npm:on-headers:1.0.2:", "npm:debug:2.6.9:", "npm:depd:1.1.2:", "npm:on-finished:2.3.0:", "npm:basic-auth:2.0.1:" ]
+  }, {
+    "ref" : "npm:depd:1.1.2:"
+  }, {
+    "ref" : "npm:express:4.19.2:",
+    "dependsOn" : [ "npm:finalhandler:1.2.0:", "npm:proxy-addr:2.0.7:", "npm:methods:1.1.2:", "npm:setprototypeof:1.2.0:", "npm:merge-descriptors:1.0.1:", "npm:body-parser:1.20.2:", "npm:debug:2.6.9:", "npm:statuses:2.0.1:", "npm:content-type:1.0.5:", "npm:path-to-regexp:0.1.7:", "npm:serve-static:1.15.0:", "npm:fresh:0.5.2:", "npm:type-is:1.6.18:", "npm:safe-buffer:5.2.1:", "npm:content-disposition:0.5.4:", "npm:cookie-signature:1.0.6:", "npm:vary:1.1.2:", "npm:on-finished:2.4.1:", "npm:cookie:0.6.0:", "npm:send:0.18.0:", "npm:escape-html:1.0.3:", "npm:qs:6.11.0:", "npm:parseurl:1.3.3:", "npm:depd:2.0.0:", "npm:encodeurl:1.0.2:", "npm:http-errors:2.0.0:", "npm:etag:1.8.1:", "npm:range-parser:1.2.1:", "npm:accepts:1.3.8:", "npm:array-flatten:1.1.1:", "npm:utils-merge:1.0.1:" ]
+  }, {
+    "ref" : "npm:optimist:0.6.1:",
+    "dependsOn" : [ "npm:minimist:0.0.10:", "npm:wordwrap:0.0.3:" ]
+  }, {
+    "ref" : "npm:is-buffer:1.1.6:"
+  }, {
+    "ref" : "npm:dotenv:16.4.5:"
+  }, {
+    "ref" : "npm:media-typer:0.3.0:"
+  }, {
+    "ref" : "npm:readable-stream:2.3.7:",
+    "dependsOn" : [ "npm:core-util-is:1.0.3:", "npm:safe-buffer:5.1.2:", "npm:process-nextick-args:2.0.1:", "npm:string_decoder:1.1.1:", "npm:inherits:2.0.3:", "npm:isarray:1.0.0:", "npm:util-deprecate:1.0.2:" ]
+  }, {
+    "ref" : "npm:speakeasy:2.0.0:",
+    "dependsOn" : [ "npm:base32.js:0.0.1:" ]
+  }, {
+    "ref" : "npm:has-symbols:1.0.3:"
+  }, {
+    "ref" : "npm:camelcase:1.2.1:"
+  }, {
+    "ref" : "npm:toidentifier:1.0.1:"
+  }, {
+    "ref" : "npm:array-flatten:1.1.1:"
+  }, {
+    "ref" : "npm:busboy:1.6.0:",
+    "dependsOn" : [ "npm:streamsearch:1.1.0:" ]
+  }, {
+    "ref" : "npm:setprototypeof:1.2.0:"
+  }, {
+    "ref" : "npm:safe-eval:0.3.0:"
+  }, {
+    "ref" : "npm:inherits:2.0.4:"
+  }, {
+    "ref" : "npm:encodeurl:1.0.2:"
+  }, {
+    "ref" : "npm:statuses:1.4.0:"
+  }, {
+    "ref" : "npm:vary:1.1.2:"
+  }, {
+    "ref" : "npm:ms:2.0.0:"
+  }, {
+    "ref" : "npm:forwarded:0.2.0:"
+  }, {
+    "ref" : "npm:cookie-signature:1.0.7:"
+  }, {
+    "ref" : "npm:set-function-length:1.2.2:",
+    "dependsOn" : [ "npm:function-bind:1.1.2:", "npm:gopd:1.0.1:", "npm:has-property-descriptors:1.0.2:", "npm:define-data-property:1.1.4:", "npm:get-intrinsic:1.2.4:", "npm:es-errors:1.3.0:" ]
+  }, {
+    "ref" : "npm:ee-first:1.1.1:"
+  }, {
+    "ref" : "npm:http-errors:1.6.3:",
+    "dependsOn" : [ "npm:statuses:1.4.0:", "npm:inherits:2.0.3:", "npm:setprototypeof:1.1.0:", "npm:depd:1.1.2:" ]
+  }, {
+    "ref" : "npm:sqlstring:2.3.1:"
+  }, {
+    "ref" : "npm:negotiator:0.6.3:"
+  }, {
+    "ref" : "npm:uglify-to-browserify:1.0.2:"
+  }, {
+    "ref" : "npm:inherits:2.0.3:"
+  }, {
+    "ref" : "npm:util-deprecate:1.0.2:"
+  }, {
+    "ref" : "npm:walk:2.3.15:",
+    "dependsOn" : [ "npm:foreachasync:3.0.0:" ]
+  }, {
+    "ref" : "npm:swig:1.4.2:",
+    "dependsOn" : [ "npm:uglify-js:2.4.24:", "npm:optimist:0.6.1:" ]
+  }, {
+    "ref" : "npm:minimist:1.2.8:"
+  }, {
+    "ref" : "npm:content-disposition:0.5.4:",
+    "dependsOn" : [ "npm:safe-buffer:5.2.1:" ]
+  }, {
+    "ref" : "npm:verademo-javascript:0.0.0:",
+    "dependsOn" : [ "npm:swig:1.4.2:", "npm:axios:0.18.0:", "npm:mysql:2.18.1:", "npm:safe-eval:0.3.0:", "npm:cookie-parser:1.4.6:", "npm:semver:7.6.2:", "npm:debug:2.6.9:", "npm:pyformat:1.0.0-0:", "npm:morgan:1.9.1:", "npm:express-session:1.18.0:", "npm:moment:2.30.1:", "npm:http-errors:1.6.3:", "npm:multer:1.4.5-lts.1:", "npm:async:3.2.5:", "npm:dotenv:16.4.5:", "npm:express:4.19.2:", "npm:doc-path:2.1.1:", "npm:lodash:4.17.15:", "npm:nodemailer:6.9.14:", "npm:speakeasy:2.0.0:", "npm:hbs:4.2.0:", "npm:validator:13.5.2:" ]
+  }, {
+    "ref" : "npm:decamelize:1.2.0:"
+  }, {
+    "ref" : "npm:destroy:1.2.0:"
+  }, {
+    "ref" : "npm:express-session:1.18.0:",
+    "dependsOn" : [ "npm:on-headers:1.0.2:", "npm:cookie:0.6.0:", "npm:depd:2.0.0:", "npm:safe-buffer:5.2.1:", "npm:debug:2.6.9:", "npm:uid-safe:2.1.5:", "npm:cookie-signature:1.0.7:", "npm:parseurl:1.3.3:" ]
+  }, {
+    "ref" : "npm:source-map:0.1.34:",
+    "dependsOn" : [ "npm:amdefine:1.0.1:" ]
+  }, {
+    "ref" : "npm:xtend:4.0.2:"
+  }, {
+    "ref" : "npm:serve-static:1.15.0:",
+    "dependsOn" : [ "npm:encodeurl:1.0.2:", "npm:send:0.18.0:", "npm:escape-html:1.0.3:", "npm:parseurl:1.3.3:" ]
+  }, {
+    "ref" : "npm:source-map:0.6.1:"
+  }, {
+    "ref" : "npm:mkdirp:0.5.6:",
+    "dependsOn" : [ "npm:minimist:1.2.8:" ]
+  }, {
+    "ref" : "npm:append-field:1.0.0:"
+  }, {
+    "ref" : "npm:yargs:3.5.4:",
+    "dependsOn" : [ "npm:decamelize:1.2.0:", "npm:window-size:0.1.0:", "npm:camelcase:1.2.1:", "npm:wordwrap:0.0.2:" ]
+  }, {
+    "ref" : "npm:body-parser:1.20.2:",
+    "dependsOn" : [ "npm:unpipe:1.0.0:", "npm:depd:2.0.0:", "npm:raw-body:2.5.2:", "npm:http-errors:2.0.0:", "npm:type-is:1.6.18:", "npm:debug:2.6.9:", "npm:iconv-lite:0.4.24:", "npm:destroy:1.2.0:", "npm:qs:6.11.0:", "npm:content-type:1.0.5:", "npm:bytes:3.1.2:", "npm:on-finished:2.4.1:" ]
+  }, {
+    "ref" : "npm:depd:2.0.0:"
+  }, {
+    "ref" : "npm:concat-stream:1.6.2:",
+    "dependsOn" : [ "npm:buffer-from:1.1.2:", "npm:inherits:2.0.3:", "npm:typedarray:0.0.6:", "npm:readable-stream:2.3.8:" ]
+  }, {
+    "ref" : "npm:ipaddr.js:1.9.1:"
+  }, {
+    "ref" : "npm:raw-body:2.5.2:",
+    "dependsOn" : [ "npm:unpipe:1.0.0:", "npm:http-errors:2.0.0:", "npm:iconv-lite:0.4.24:", "npm:bytes:3.1.2:" ]
+  }, {
+    "ref" : "npm:wordwrap:0.0.2:"
+  }, {
+    "ref" : "npm:foreachasync:3.0.0:"
+  }, {
+    "ref" : "npm:nodemailer:6.9.14:"
+  }, {
+    "ref" : "npm:amdefine:1.0.1:"
+  }, {
+    "ref" : "npm:bytes:3.1.2:"
+  }, {
+    "ref" : "npm:typedarray:0.0.6:"
+  }, {
+    "ref" : "npm:es-errors:1.3.0:"
+  }, {
+    "ref" : "npm:axios:0.18.0:",
+    "dependsOn" : [ "npm:is-buffer:1.1.6:", "npm:follow-redirects:1.15.6:" ]
+  }, {
+    "ref" : "npm:random-bytes:1.0.0:"
+  }, {
+    "ref" : "npm:get-intrinsic:1.2.4:",
+    "dependsOn" : [ "npm:function-bind:1.1.2:", "npm:has-symbols:1.0.3:", "npm:hasown:2.0.2:", "npm:has-proto:1.0.3:", "npm:es-errors:1.3.0:" ]
+  }, {
+    "ref" : "npm:statuses:2.0.1:"
+  }, {
+    "ref" : "npm:streamsearch:1.1.0:"
+  }, {
+    "ref" : "npm:unpipe:1.0.0:"
+  }, {
+    "ref" : "npm:define-data-property:1.1.4:",
+    "dependsOn" : [ "npm:gopd:1.0.1:", "npm:es-define-property:1.0.0:", "npm:es-errors:1.3.0:" ]
+  }, {
+    "ref" : "npm:methods:1.1.2:"
+  }, {
+    "ref" : "npm:cookie:0.4.1:"
+  }, {
+    "ref" : "npm:on-finished:2.3.0:",
+    "dependsOn" : [ "npm:ee-first:1.1.1:" ]
+  }, {
+    "ref" : "npm:async:3.2.5:"
+  }, {
+    "ref" : "npm:es-define-property:1.0.0:",
+    "dependsOn" : [ "npm:get-intrinsic:1.2.4:" ]
+  }, {
+    "ref" : "npm:hbs:4.2.0:",
+    "dependsOn" : [ "npm:handlebars:4.7.7:", "npm:walk:2.3.15:" ]
+  }, {
+    "ref" : "npm:content-type:1.0.5:"
+  }, {
+    "ref" : "npm:cookie:0.6.0:"
+  }, {
+    "ref" : "npm:has-property-descriptors:1.0.2:",
+    "dependsOn" : [ "npm:es-define-property:1.0.0:" ]
+  }, {
+    "ref" : "npm:object-assign:4.1.1:"
+  }, {
+    "ref" : "npm:process-nextick-args:2.0.1:"
+  }, {
+    "ref" : "npm:gopd:1.0.1:",
+    "dependsOn" : [ "npm:get-intrinsic:1.2.4:" ]
+  }, {
+    "ref" : "npm:moment:2.30.1:"
+  }, {
+    "ref" : "npm:mime-types:2.1.35:",
+    "dependsOn" : [ "npm:mime-db:1.52.0:" ]
+  }, {
+    "ref" : "npm:core-util-is:1.0.3:"
+  }, {
+    "ref" : "npm:cookie-signature:1.0.6:"
+  }, {
+    "ref" : "npm:uid-safe:2.1.5:",
+    "dependsOn" : [ "npm:random-bytes:1.0.0:" ]
+  }, {
+    "ref" : "npm:send:0.18.0:",
+    "dependsOn" : [ "npm:debug:2.6.9:", "npm:ms:2.1.3:", "npm:statuses:2.0.1:", "npm:mime:1.6.0:", "npm:escape-html:1.0.3:", "npm:depd:2.0.0:", "npm:fresh:0.5.2:", "npm:encodeurl:1.0.2:", "npm:http-errors:2.0.0:", "npm:etag:1.8.1:", "npm:destroy:1.2.0:", "npm:range-parser:1.2.1:", "npm:on-finished:2.4.1:" ]
+  }, {
+    "ref" : "npm:proxy-addr:2.0.7:",
+    "dependsOn" : [ "npm:forwarded:0.2.0:", "npm:ipaddr.js:1.9.1:" ]
+  }, {
+    "ref" : "npm:pyformat:1.0.0-0:"
+  }, {
+    "ref" : "npm:object-inspect:1.13.1:"
+  }, {
+    "ref" : "npm:call-bind:1.0.7:",
+    "dependsOn" : [ "npm:function-bind:1.1.2:", "npm:set-function-length:1.2.2:", "npm:es-define-property:1.0.0:", "npm:get-intrinsic:1.2.4:", "npm:es-errors:1.3.0:" ]
+  }, {
+    "ref" : "npm:debug:2.6.9:",
+    "dependsOn" : [ "npm:ms:2.0.0:" ]
+  }, {
+    "ref" : "npm:accepts:1.3.8:",
+    "dependsOn" : [ "npm:mime-types:2.1.35:", "npm:negotiator:0.6.3:" ]
+  }, {
+    "ref" : "manual:nodejs:null:22.17.0:",
+    "dependsOn" : [ "manual:nodejs:null:22.17.0:" ]
+  }, {
+    "ref" : "npm:ms:2.1.3:"
+  }, {
+    "ref" : "npm:lodash:4.17.15:"
+  }, {
+    "ref" : "npm:isarray:1.0.0:"
+  }, {
+    "ref" : "npm:cookie-parser:1.4.6:",
+    "dependsOn" : [ "npm:cookie:0.4.1:", "npm:cookie-signature:1.0.6:" ]
+  }, {
+    "ref" : "npm:hasown:2.0.2:",
+    "dependsOn" : [ "npm:function-bind:1.1.2:" ]
+  }, {
+    "ref" : "npm:doc-path:2.1.1:"
+  }, {
+    "ref" : "npm:base32.js:0.0.1:"
+  }, {
+    "ref" : "npm:side-channel:1.0.6:",
+    "dependsOn" : [ "npm:call-bind:1.0.7:", "npm:get-intrinsic:1.2.4:", "npm:object-inspect:1.13.1:", "npm:es-errors:1.3.0:" ]
+  }, {
+    "ref" : "npm:mime-db:1.52.0:"
+  }, {
+    "ref" : "npm:handlebars:4.7.7:",
+    "dependsOn" : [ "npm:minimist:1.2.8:", "npm:neo-async:2.6.2:", "npm:wordwrap:1.0.0:", "npm:source-map:0.6.1:" ]
+  }, {
+    "ref" : "npm:function-bind:1.1.2:"
+  }, {
+    "ref" : "npm:safe-buffer:5.2.1:"
+  }, {
+    "ref" : "npm:path-to-regexp:0.1.7:"
+  } ],
+  "compositions" : [ ],
+  "vulnerabilities" : [ {
+    "bom-ref" : "npm:uglify-js::2.4.24::CVE-2015-8858",
+    "id" : "CVE-2015-8858",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-1859",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2015-8858",
+      "source" : {
+        "url" : "https://github.com/mishoo/UglifyJS2/issues/857",
+        "name" : "CROSS_REFERENCE"
+      }
+    }, {
+      "id" : "CVE-2015-8858",
+      "source" : {
+        "url" : "https://github.com/mishoo/UglifyJS2/commit/63d35f8f6db6d90d6142132d2d5f0bd5d3d698aa",
+        "name" : "CROSS_REFERENCE"
+      }
+    }, {
+      "id" : "CVE-2015-8858",
+      "source" : {
+        "url" : "https://nodesecurity.io/advisories/48",
+        "name" : "CROSS_REFERENCE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2015-8858",
+        "name" : "NVD"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2015-8858",
+        "name" : "NVD"
+      },
+      "score" : 7.800000190734863,
+      "severity" : "high",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:L/Au:N/C:N/I:N/A:C"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-1859",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 3.299999952316284,
+      "severity" : "low",
+      "method" : "other",
+      "vector" : ""
+    } ],
+    "cwes" : [ 399 ],
+    "description" : "In uglify-js versions before 2.6.0, parse_js_number verifies floating point numbers using a regular expression vulnerable to a denial of service attack.",
+    "recommendation" : "2.6.0",
+    "advisories" : [ {
+      "title" : "Regular Expression Denial Of Service (ReDoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2015-8858"
+    } ],
+    "created" : "2015-11-17T04:46:13.340Z",
+    "published" : "2017-01-23T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:uglify-js::2.4.24:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.0|<=2.5.0",
+        "status" : "affected"
+      }, {
+        "version" : "2.6.0",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-1859"
+    } ]
+  }, {
+    "bom-ref" : "npm:axios::0.18.0::CVE-2025-27152",
+    "id" : "CVE-2025-27152",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-50655",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2025-27152",
+      "source" : {
+        "url" : "https://github.com/axios/axios/commit/fb8eec214ce7744b5ca787f2c3b8339b2f54b00f",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2025-27152",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-jr5f-v2jv-69x6",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2025-27152",
+      "source" : {
+        "url" : "https://github.com/axios/axios/issues/6463",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2025-27152",
+      "source" : {
+        "url" : "https://github.com/axios/axios/security/advisories/GHSA-jr5f-v2jv-69x6",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2025-27152",
+      "source" : {
+        "url" : "https://github.com/axios/axios/security/advisories/GHSA-jr5f-v2jv-69x6",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-50655",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.800000190734863,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N"
+    } ],
+    "cwes" : [ ],
+    "description" : "Axios is vulnerable to Server-Side Request Forgery (SSRF). The vulnerability is due to improper handling of absolute URLs, which causes axios to send requests directly to the specified absolute URL instead of respecting the baseURL, potentially leading to SSRF and exposing sensitive credentials.",
+    "recommendation" : "0.30.0",
+    "advisories" : [ {
+      "title" : "Server-Side Request Forgery (SSRF)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2025-27152"
+    } ],
+    "created" : "2025-03-12T10:23:53.636Z",
+    "published" : "2025-03-07T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:axios::0.18.0:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.1.0|<=0.29.0",
+        "status" : "affected"
+      }, {
+        "version" : "0.30.0",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-50655"
+    } ]
+  }, {
+    "bom-ref" : "npm:safe-eval::0.3.0::CVE-2023-26121",
+    "id" : "CVE-2023-26121",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-40123",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2023-26121",
+      "source" : {
+        "url" : "https://gist.github.com/seongil-wi/9d9fc0cc5b7b130419cd45827e59c4f9",
+        "name" : "KNOWN_EXPLOIT"
+      }
+    }, {
+      "id" : "CVE-2023-26121",
+      "source" : {
+        "url" : "https://github.com/hacksparrow/safe-eval/issues/28",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2023-26121",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-hcg3-56jf-x4vh",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2023-26121",
+        "name" : "NVD"
+      },
+      "score" : 10.0,
+      "severity" : "critical",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-40123",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.800000190734863,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    } ],
+    "cwes" : [ 1321 ],
+    "description" : "safe-eval is vulnerable to Prototype Pollution. The vulnerability exists in `safeEval` in `index.js` due to sandbox escaping which allows an attacker to access the host error objects during the generation of a stack trace. ",
+    "recommendation" : "",
+    "advisories" : [ {
+      "title" : "Prototype Pollution",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2023-26121"
+    } ],
+    "created" : "2023-04-12T14:21:01.576Z",
+    "published" : "2023-04-11T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:safe-eval::0.3.0:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.1.0|<=0.4.1",
+        "status" : "affected"
+      }, {
+        "version" : "",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-40123"
+    } ]
+  }, {
+    "bom-ref" : "npm:serve-static::1.15.0::CVE-2024-43800",
+    "id" : "CVE-2024-43800",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48815",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2024-43800",
+      "source" : {
+        "url" : "https://github.com/expressjs/serve-static/commit/ce730896fddce1588111d9ef6fdf20896de5c6fa",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2024-43800",
+      "source" : {
+        "url" : "https://github.com/expressjs/serve-static/commit/0c11fad159898cdc69fd9ab63269b72468ecaf6b",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2024-43800",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-cm22-4g7w-348p",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-43800",
+      "source" : {
+        "url" : "https://github.com/expressjs/serve-static/security/advisories/GHSA-cm22-4g7w-348p",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-43800",
+        "name" : "NVD"
+      },
+      "score" : 4.699999809265137,
+      "severity" : "medium",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48815",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 5.099999904632568,
+      "severity" : "medium",
+      "method" : "other",
+      "vector" : "AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L"
+    } ],
+    "cwes" : [ 79 ],
+    "description" : "serve-static is vulnerable to Cross-site Scripting (XSS). The vulnerability is due to passing untrusted user input, even after sanitization, to the redirect() function, which may lead to the execution of untrusted code.",
+    "recommendation" : "1.16.0",
+    "advisories" : [ {
+      "title" : "Cross-site Scripting (XSS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-43800"
+    } ],
+    "created" : "2024-09-11T09:11:38.983Z",
+    "published" : "2024-09-10T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:serve-static::1.15.0:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=1.10.0|<=1.15.0",
+        "status" : "affected"
+      }, {
+        "version" : "1.16.0",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48815"
+    } ]
+  }, {
+    "bom-ref" : "npm:swig::1.4.2::CVE-2023-25345",
+    "id" : "CVE-2023-25345",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-39804",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2023-25345",
+      "source" : {
+        "url" : "https://github.com/node-swig/swig-templates/issues/88",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2023-25345",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-2rq5-699j-x7p6",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2023-25345",
+        "name" : "NVD"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-39804",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 4.300000190734863,
+      "severity" : "medium",
+      "method" : "other",
+      "vector" : "AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:N/A:N"
+    } ],
+    "cwes" : [ 22 ],
+    "description" : "swig-templates is vulnerable to Path Traversal. The vulnerability exists due to improper template restrictions which allows an attacker to access and read the files outside the restricted directory through the `include` or `extends` tags.",
+    "recommendation" : "",
+    "advisories" : [ {
+      "title" : "Path Traversal",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2023-25345"
+    } ],
+    "created" : "2023-03-17T01:45:46.801Z",
+    "published" : "2023-03-15T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:swig::1.4.2:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.1.1|<=1.4.2",
+        "status" : "affected"
+      }, {
+        "version" : "",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-39804"
+    } ]
+  }, {
+    "bom-ref" : "npm:axios::0.18.0::CVE-2024-57965",
+    "id" : "CVE-2024-57965",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-50260",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2024-57965",
+      "source" : {
+        "url" : "https://github.com/axios/axios/issues/6351",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2024-57965",
+      "source" : {
+        "url" : "https://github.com/axios/axios/pull/6714",
+        "name" : "GITHUB_FIX_PR"
+      }
+    }, {
+      "id" : "CVE-2024-57965",
+      "source" : {
+        "url" : "https://github.com/axios/axios/releases/tag/v1.7.8",
+        "name" : "GITHUB_FIX_TAG"
+      }
+    }, {
+      "id" : "CVE-2024-57965",
+      "source" : {
+        "url" : "https://github.com/axios/axios/commit/0a8d6e19da5b9899a2abafaaa06a75ee548597db",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2024-57965",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-fh7x-2848-jmpf",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-50260",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 5.800000190734863,
+      "severity" : "medium",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    } ],
+    "cwes" : [ ],
+    "description" : "Axios is vulnerable to Cross-Site Scripting (XSS). The vulnerability is due to improper origin determination and unsafe handling of the href attribute in the lib/helpers/isURLSameOrigin.js file, which does not use a proper URL object. It allows an attacker to manipulate the href attribute and inject malicious code.",
+    "recommendation" : "1.7.8",
+    "advisories" : [ {
+      "title" : "Cross-Site Scripting (XSS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-57965"
+    } ],
+    "created" : "2025-02-05T01:29:10.553Z",
+    "published" : "2025-01-29T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:axios::0.18.0:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.8.0|<=1.7.7",
+        "status" : "affected"
+      }, {
+        "version" : "1.7.8",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-50260"
+    } ]
+  }, {
+    "bom-ref" : "npm:async::0.2.10::CVE-2024-39249",
+    "id" : "CVE-2024-39249",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-47880",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/caolan/async/pull/1980",
+        "name" : "GITHUB_FIX_PR"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/caolan/async/blob/v3.2.5/lib/autoInject.js#L41",
+        "name" : "VULNERABLE_LINE"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/caolan/async/blob/v3.2.5/lib/autoInject.js#L6",
+        "name" : "VULNERABLE_LINE"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/caolan/async/commit/5f756b4470d91778702cace5f5fce8060aeb7ad6",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/caolan/async/issues/1975",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-x6xm-h7hm-7p9q",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/caolan/async/issues/1975#issuecomment-2204528153",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/zunak/CVE-2024-39249",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/zunak/CVE-2024-39249/issues/1",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://web.archive.org/web/20240710221213/https://github.com/zunak/CVE-2024-39249",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-47880",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 5.0,
+      "severity" : "medium",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    } ],
+    "cwes" : [ ],
+    "description" : "async is vulnerable to Regular Expression Denial of Service (ReDoS). The vulnerability is due to the `autoinject` function, which allows an attacker to slowdown parsing with crafted whitespaces, resulting in Regular Expression Denial of Service (ReDoS).",
+    "recommendation" : "3.2.6",
+    "advisories" : [ {
+      "title" : "Regular Expression Denial Of Service (ReDoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-39249"
+    } ],
+    "created" : "2024-07-03T06:03:12.635Z",
+    "published" : "2024-07-01T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:async::0.2.10:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.1.0|<=3.2.5",
+        "status" : "affected"
+      }, {
+        "version" : "3.2.6",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-47880"
+    } ]
+  }, {
+    "bom-ref" : "npm:send::0.18.0::CVE-2024-43799",
+    "id" : "CVE-2024-43799",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48808",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2024-43799",
+      "source" : {
+        "url" : "https://github.com/pillarjs/send/commit/ae4f2989491b392ae2ef3b0015a019770ae65d35",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2024-43799",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-m6fv-jmcg-4jfg",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-43799",
+      "source" : {
+        "url" : "https://github.com/pillarjs/send/security/advisories/GHSA-m6fv-jmcg-4jfg",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-43799",
+        "name" : "NVD"
+      },
+      "score" : 4.699999809265137,
+      "severity" : "medium",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48808",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 5.099999904632568,
+      "severity" : "medium",
+      "method" : "other",
+      "vector" : "AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L"
+    } ],
+    "cwes" : [ 79 ],
+    "description" : "Send is vulnerable to untrusted code execution. The vulnerability is due to the failure to properly validate or sanitize user input before passing it to SendStream.redirect(), which allows an attacker to execute arbitrary code on the server.",
+    "recommendation" : "0.19.0",
+    "advisories" : [ {
+      "title" : "Code Execution",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-43799"
+    } ],
+    "created" : "2024-09-11T05:47:10.511Z",
+    "published" : "2024-09-10T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:send::0.18.0:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.9.0|<=0.18.0",
+        "status" : "affected"
+      }, {
+        "version" : "0.19.0",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48808"
+    } ]
+  }, {
+    "bom-ref" : "npm:safe-eval::0.3.0::CVE-2017-16088",
+    "id" : "CVE-2017-16088",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-6652",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2017-16088",
+      "source" : {
+        "url" : "https://github.com/hacksparrow/safe-eval/issues/5",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2017-16088",
+      "source" : {
+        "url" : "https://nodesecurity.io/advisories/337",
+        "name" : "NODE_SECURITY"
+      }
+    }, {
+      "id" : "CVE-2017-16088",
+      "source" : {
+        "url" : "https://github.com/patriksimek/vm2/issues/59",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2017-16088",
+        "name" : "NVD"
+      },
+      "score" : 10.0,
+      "severity" : "critical",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2017-16088",
+        "name" : "NVD"
+      },
+      "score" : 10.0,
+      "severity" : "high",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:L/Au:N/C:C/I:C/A:C"
+    } ],
+    "cwes" : [ ],
+    "description" : "safe-eval is vulnerable to remote code execution (RCE). The application does not properly sanitize user input in object constructors, allowing a malicious user to break out of the Sandbox and execute arbitrary commands.",
+    "recommendation" : "",
+    "advisories" : [ {
+      "title" : "Remote Code Execution (RCE)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2017-16088"
+    } ],
+    "created" : "2018-06-07T13:24:27.022Z",
+    "published" : "2018-06-07T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:safe-eval::0.3.0:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.0.0|<=0.3.0",
+        "status" : "affected"
+      }, {
+        "version" : "",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-6652"
+    } ]
+  }, {
+    "bom-ref" : "npm:axios::0.18.0::CVE-2020-28168",
+    "id" : "CVE-2020-28168",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-27848",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2020-28168",
+      "source" : {
+        "url" : "https://github.com/axios/axios/pull/3410",
+        "name" : "GITHUB_FIX_PR"
+      }
+    }, {
+      "id" : "CVE-2020-28168",
+      "source" : {
+        "url" : "https://github.com/axios/axios/issues/3369",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2020-28168",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r25d53acd06f29244b8a103781b0339c5e7efee9099a4d52f0c230e4a%40%3Ccommits.druid.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-28168",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r25d53acd06f29244b8a103781b0339c5e7efee9099a4d52f0c230e4a@%3Ccommits.druid.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-28168",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r954d80fd18e9dafef6e813963eb7e08c228151c2b6268ecd63b35d1f@%3Ccommits.druid.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-28168",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/r954d80fd18e9dafef6e813963eb7e08c228151c2b6268ecd63b35d1f%40%3Ccommits.druid.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-28168",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/rdfd2901b8b697a3f6e2c9c6ecc688fd90d7f881937affb5144d61d6e@%3Ccommits.druid.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-28168",
+      "source" : {
+        "url" : "https://lists.apache.org/thread.html/rdfd2901b8b697a3f6e2c9c6ecc688fd90d7f881937affb5144d61d6e%40%3Ccommits.druid.apache.org%3E",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-28168",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-4w2v-q235-vp99",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2020-28168",
+      "source" : {
+        "url" : "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-28168",
+      "source" : {
+        "url" : "https://www.npmjs.com/advisories/1594",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-28168",
+        "name" : "NVD"
+      },
+      "score" : 5.900000095367432,
+      "severity" : "medium",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-28168",
+        "name" : "NVD"
+      },
+      "score" : 4.300000190734863,
+      "severity" : "medium",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:M/Au:N/C:P/I:N/A:N"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-27848",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 6.400000095367432,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L"
+    } ],
+    "cwes" : [ 918 ],
+    "description" : "axios is vulnerable to server-side request forgery (SSRF). The vulnerability exists due to a lack of validation of the URL that is passed via the request from client, allowing the attacker to bypass a proxy and submit requests on behalf of the server by providing a URL that responds with a redirect to a restricted host or IP address. ",
+    "recommendation" : "0.21.1",
+    "advisories" : [ {
+      "title" : "Server-Side Request Forgery (SSRF)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-28168"
+    } ],
+    "created" : "2020-11-09T11:41:33.573Z",
+    "published" : "2020-11-06T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:axios::0.18.0:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.10.0|<=0.21.0",
+        "status" : "affected"
+      }, {
+        "version" : "0.21.1",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-27848"
+    } ]
+  }, {
+    "bom-ref" : "npm:express::4.19.2::CVE-2024-43796",
+    "id" : "CVE-2024-43796",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48810",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2024-43796",
+      "source" : {
+        "url" : "https://github.com/expressjs/express/commit/54271f69b511fea198471e6ff3400ab805d6b553",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2024-43796",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-qw6h-vgh9-j6wx",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-43796",
+      "source" : {
+        "url" : "https://github.com/expressjs/express/security/advisories/GHSA-qw6h-vgh9-j6wx",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-43796",
+        "name" : "NVD"
+      },
+      "score" : 4.699999809265137,
+      "severity" : "medium",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48810",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 5.099999904632568,
+      "severity" : "medium",
+      "method" : "other",
+      "vector" : "AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L"
+    } ],
+    "cwes" : [ 79 ],
+    "description" : "Express.js is vulnerable to Remote Code Execution (RCE). The vulnerability is due to insufficient validation or handling of user input when passed to response.redirect(), allowing untrusted code to be executed despite sanitization efforts.",
+    "recommendation" : "4.20.0",
+    "advisories" : [ {
+      "title" : "Remote Code Execution (RCE)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-43796"
+    } ],
+    "created" : "2024-09-11T07:06:19.514Z",
+    "published" : "2024-09-10T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:express::4.19.2:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=2.0.0-beta2|<=4.19.2",
+        "status" : "affected"
+      }, {
+        "version" : "4.20.0",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48810"
+    } ]
+  }, {
+    "bom-ref" : "npm:safe-eval::0.3.0::CVE-2022-25904",
+    "id" : "CVE-2022-25904",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-38550",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2022-25904",
+      "source" : {
+        "url" : "https://github.com/hacksparrow/safe-eval/blob/0.4.1/index.js#L24",
+        "name" : "VULNERABLE_LINE"
+      }
+    }, {
+      "id" : "CVE-2022-25904",
+      "source" : {
+        "url" : "https://github.com/hacksparrow/safe-eval/issues/26",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2022-25904",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-33vh-7x8q-mg35",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2022-25904",
+        "name" : "NVD"
+      },
+      "score" : 9.800000190734863,
+      "severity" : "critical",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-38550",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    } ],
+    "cwes" : [ 1321 ],
+    "description" : "safe-eval is vulnerable to prototype pollution. The vulnerability exists in the `safeEval` function in `index.js`, because it allows an attacker to add or modify `Object.prototype.Consolidate` properties.\n",
+    "recommendation" : "",
+    "advisories" : [ {
+      "title" : "Prototype Pollution",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2022-25904"
+    } ],
+    "created" : "2022-12-21T06:05:48.475Z",
+    "published" : "2022-12-20T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:safe-eval::0.3.0:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.0.0|<=0.4.1",
+        "status" : "affected"
+      }, {
+        "version" : "",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-38550"
+    } ]
+  }, {
+    "bom-ref" : "npm:multer::1.4.5-lts.1::CVE-2025-48997",
+    "id" : "CVE-2025-48997",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-107956",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2025-48997",
+      "source" : {
+        "url" : "https://github.com/expressjs/multer/issues/1233",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2025-48997",
+      "source" : {
+        "url" : "https://github.com/expressjs/multer/commit/35a3272b611945155e046dd5cef11088587635e9",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2025-48997",
+      "source" : {
+        "url" : "https://github.com/expressjs/multer/pull/1256",
+        "name" : "GITHUB_FIX_PR"
+      }
+    }, {
+      "id" : "CVE-2025-48997",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-g5hg-p3ph-g8qg",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2025-48997",
+      "source" : {
+        "url" : "https://github.com/expressjs/multer/security/advisories/GHSA-g5hg-p3ph-g8qg",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-107956",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.099999904632568,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    } ],
+    "cwes" : [ 248 ],
+    "description" : "Multer is vulnerable to Denial of Service (DoS). The vulnerability is due to improper handling of file upload requests with empty string field names, allowing an attacker to crash the server with a crafted request.",
+    "recommendation" : "2.0.1",
+    "advisories" : [ {
+      "title" : "Denial Of Service (DoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2025-48997"
+    } ],
+    "created" : "2025-06-06T05:08:35.809Z",
+    "published" : "2025-06-03T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:multer::1.4.5-lts.1:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=1.4.4-lts.1|<=2.0.0",
+        "status" : "affected"
+      }, {
+        "version" : "2.0.1",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-107956"
+    } ]
+  }, {
+    "bom-ref" : "npm:body-parser::1.20.2::CVE-2024-45590",
+    "id" : "CVE-2024-45590",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48811",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2024-45590",
+      "source" : {
+        "url" : "https://github.com/expressjs/body-parser/commit/b2695c4450f06ba3b0ccf48d872a229bb41c9bce",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2024-45590",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-qwcr-r2fm-qrc7",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-45590",
+      "source" : {
+        "url" : "https://github.com/expressjs/body-parser/security/advisories/GHSA-qwcr-r2fm-qrc7",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-45590",
+        "name" : "NVD"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48811",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.099999904632568,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    } ],
+    "cwes" : [ ],
+    "description" : "body-parser is vulnerable to Denial Of Service (DoS). The vulnerability is due to inadequate handling of url encoding in body-parser, which allows an attacker to flood the server with excessive requests, potentially disrupting the server’s availability.",
+    "recommendation" : "1.20.3",
+    "advisories" : [ {
+      "title" : "Denial Of Service (DoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-45590"
+    } ],
+    "created" : "2024-09-11T07:31:07.884Z",
+    "published" : "2024-09-10T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:body-parser::1.20.2:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=1.4.0|<=1.20.2",
+        "status" : "affected"
+      }, {
+        "version" : "1.20.3",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48811"
+    } ]
+  }, {
+    "bom-ref" : "npm:cookie::0.6.0::CVE-2024-47764",
+    "id" : "CVE-2024-47764",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-49083",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2024-47764",
+      "source" : {
+        "url" : "https://github.com/jshttp/cookie/commit/e10042845354fea83bd8f34af72475eed1dadf5c",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2024-47764",
+      "source" : {
+        "url" : "https://github.com/jshttp/cookie/pull/167",
+        "name" : "GITHUB_FIX_PR"
+      }
+    }, {
+      "id" : "CVE-2024-47764",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-pxg6-pf52-xh8x",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-47764",
+      "source" : {
+        "url" : "https://github.com/jshttp/cookie/security/advisories/GHSA-pxg6-pf52-xh8x",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-49083",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.800000190734863,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N"
+    } ],
+    "cwes" : [ ],
+    "description" : "cookie is vulnerable to Cookie Poisoning. The vulnerability is due to improper input validation for the cookie name, path, and domain fields, allowing these fields to be manipulated and alter other cookie attributes.",
+    "recommendation" : "0.7.0",
+    "advisories" : [ {
+      "title" : "Cookie Poisoning",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-47764"
+    } ],
+    "created" : "2024-10-09T04:18:26.540Z",
+    "published" : "2024-10-04T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:cookie::0.6.0:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.0.0|<=0.6.0",
+        "status" : "affected"
+      }, {
+        "version" : "0.7.0",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-49083"
+    } ]
+  }, {
+    "bom-ref" : "npm:validator::13.5.2::sid-29395",
+    "id" : "SRCCLR-SID-29395",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-29395",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "SRCCLR-SID-29395",
+      "source" : {
+        "url" : "https://github.com/validatorjs/validator.js/issues/1596",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "SRCCLR-SID-29395",
+      "source" : {
+        "url" : "https://github.com/validatorjs/validator.js/commit/b1e31fe68ce1400915681b1d4bfe5c042fe612b7",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-29395",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 5.0,
+      "severity" : "medium",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    } ],
+    "cwes" : [ ],
+    "description" : "validator is vulnerable to regular expression denial of service (ReDoS). The vulnerability exists through the value passed into `isSlug` which gets evaluated by the regular expression in `charsetRegex`.",
+    "recommendation" : "",
+    "advisories" : [ {
+      "title" : "Regular Expression Denial Of Service (ReDoS)",
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-29395"
+    } ],
+    "created" : "2021-02-15T05:50:01.045Z",
+    "affects" : [ {
+      "ref" : "npm:validator::13.5.2:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=12.0.0|<=13.5.2",
+        "status" : "affected"
+      }, {
+        "version" : "",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-29395"
+    } ]
+  }, {
+    "bom-ref" : "npm:async::3.2.5::CVE-2024-39249",
+    "id" : "CVE-2024-39249",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-47880",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/caolan/async/pull/1980",
+        "name" : "GITHUB_FIX_PR"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/caolan/async/blob/v3.2.5/lib/autoInject.js#L41",
+        "name" : "VULNERABLE_LINE"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/caolan/async/blob/v3.2.5/lib/autoInject.js#L6",
+        "name" : "VULNERABLE_LINE"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/caolan/async/commit/5f756b4470d91778702cace5f5fce8060aeb7ad6",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/caolan/async/issues/1975",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-x6xm-h7hm-7p9q",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/caolan/async/issues/1975#issuecomment-2204528153",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/zunak/CVE-2024-39249",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://github.com/zunak/CVE-2024-39249/issues/1",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2024-39249",
+      "source" : {
+        "url" : "https://web.archive.org/web/20240710221213/https://github.com/zunak/CVE-2024-39249",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-47880",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 5.0,
+      "severity" : "medium",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    } ],
+    "cwes" : [ ],
+    "description" : "async is vulnerable to Regular Expression Denial of Service (ReDoS). The vulnerability is due to the `autoinject` function, which allows an attacker to slowdown parsing with crafted whitespaces, resulting in Regular Expression Denial of Service (ReDoS).",
+    "recommendation" : "3.2.6",
+    "advisories" : [ {
+      "title" : "Regular Expression Denial Of Service (ReDoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-39249"
+    } ],
+    "created" : "2024-07-03T06:03:12.635Z",
+    "published" : "2024-07-01T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:async::3.2.5:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.1.0|<=3.2.5",
+        "status" : "affected"
+      }, {
+        "version" : "3.2.6",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-47880"
+    } ]
+  }, {
+    "bom-ref" : "npm:swig::1.4.2::CVE-2023-25344",
+    "id" : "CVE-2023-25344",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-39803",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2023-25344",
+      "source" : {
+        "url" : "https://github.com/node-swig/swig-templates/issues/89",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2023-25344",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-rjhx-p7x7-qfq6",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2023-25344",
+      "source" : {
+        "url" : "https://www.gem-love.com/2023/02/01/Swig%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E0day%E6%8C%96%E6%8E%98-%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%92%8C%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96/",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2023-25344",
+        "name" : "NVD"
+      },
+      "score" : 9.800000190734863,
+      "severity" : "critical",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-39803",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 9.300000190734863,
+      "severity" : "critical",
+      "method" : "other",
+      "vector" : "AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:L"
+    } ],
+    "cwes" : [ ],
+    "description" : "swig is vulnerable to Arbitrary Code Execution. The vulnerability is due to a lack of template restrictions; if an attacker has access to the template file, they can inject and execute malicious code through a maliciously crafted `Object.prototype anonymous` function.",
+    "recommendation" : "",
+    "advisories" : [ {
+      "title" : "Arbitrary Code Execution",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2023-25344"
+    } ],
+    "created" : "2023-03-17T00:53:43.908Z",
+    "published" : "2023-03-15T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:swig::1.4.2:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.1.1|<=1.4.2",
+        "status" : "affected"
+      }, {
+        "version" : "",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-39803"
+    } ]
+  }, {
+    "bom-ref" : "npm:safe-eval::0.3.0::CVE-2020-7710",
+    "id" : "CVE-2020-7710",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-26475",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2020-7710",
+      "source" : {
+        "url" : "https://github.com/hacksparrow/safe-eval/issues/19",
+        "name" : "GITHUB_ISSUE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-7710",
+        "name" : "NVD"
+      },
+      "score" : 9.800000190734863,
+      "severity" : "critical",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-7710",
+        "name" : "NVD"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-26475",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 10.0,
+      "severity" : "critical",
+      "method" : "other",
+      "vector" : "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    } ],
+    "cwes" : [ 94 ],
+    "description" : "safe-eval is vulnerable to remote code execution (RCE). The application does not properly sanitize user input, allowing a malicious user to execute arbitrary commands.",
+    "recommendation" : "",
+    "advisories" : [ {
+      "title" : "Remote Code Execution (RCE)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-7710"
+    } ],
+    "created" : "2020-08-24T00:08:10.477Z",
+    "published" : "2020-08-21T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:safe-eval::0.3.0:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.0.0|<=0.4.1",
+        "status" : "affected"
+      }, {
+        "version" : "",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-26475"
+    } ]
+  }, {
+    "bom-ref" : "npm:multer::1.4.5-lts.1::CVE-2025-7338",
+    "id" : "CVE-2025-7338",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-110429",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2025-7338",
+      "source" : {
+        "url" : "https://github.com/expressjs/multer/commit/adfeaf669f0e7fe953eab191a762164a452d143b",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2025-7338",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-fjgf-rc76-4x9p",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2025-7338",
+      "source" : {
+        "url" : "https://cna.openjsf.org/security-advisories.html",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2025-7338",
+      "source" : {
+        "url" : "https://github.com/expressjs/multer/security/advisories/GHSA-fjgf-rc76-4x9p",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-110429",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.099999904632568,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    } ],
+    "cwes" : [ ],
+    "description" : "Multer is vulnerable to Denial of Service (DoS). The vulnerability is due to improper handling of malformed multipart/form-data upload requests, which allows an attacker to trigger an unhandled exception and crash the process.",
+    "recommendation" : "2.0.2",
+    "advisories" : [ {
+      "title" : "Denial Of Service (DoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2025-7338"
+    } ],
+    "created" : "2025-07-21T05:42:03.582Z",
+    "published" : "2025-07-17T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:multer::1.4.5-lts.1:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=1.4.4-lts.1|<=2.0.1",
+        "status" : "affected"
+      }, {
+        "version" : "2.0.2",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-110429"
+    } ]
+  }, {
+    "bom-ref" : "npm:doc-path::2.1.1::CVE-2020-7772",
+    "id" : "CVE-2020-7772",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-27887",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2020-7772",
+      "source" : {
+        "url" : "https://github.com/mrodrig/doc-path/blob/2.1.2/src/path.js#L55-L69",
+        "name" : "VULNERABLE_LINE"
+      }
+    }, {
+      "id" : "CVE-2020-7772",
+      "source" : {
+        "url" : "https://github.com/mrodrig/doc-path/commit/3e2bb168cf303bffcd7fae5f8d05e5300c1541c7",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2020-7772",
+      "source" : {
+        "url" : "https://github.com/mrodrig/doc-path/blob/stable/src/path.js%23L54",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-7772",
+        "name" : "NVD"
+      },
+      "score" : 9.800000190734863,
+      "severity" : "critical",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-7772",
+        "name" : "NVD"
+      },
+      "score" : 10.0,
+      "severity" : "high",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:L/Au:N/C:C/I:C/A:C"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-27887",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : ""
+    } ],
+    "cwes" : [ ],
+    "description" : "doc-path is vulnerable to prototype pollution. An attacker is able to inject arbitrary properties into existing construct prototypes and modify attributes such as `__proto__`, `constructor` and `prototype`.",
+    "recommendation" : "2.1.2",
+    "advisories" : [ {
+      "title" : "Prototype Pollution",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-7772"
+    } ],
+    "created" : "2020-11-16T01:14:16.746Z",
+    "published" : "2020-11-15T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:doc-path::2.1.1:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=1.0.1|<=2.1.1",
+        "status" : "affected"
+      }, {
+        "version" : "2.1.2",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-27887"
+    } ]
+  }, {
+    "bom-ref" : "npm:path-to-regexp::0.1.7::CVE-2024-45296",
+    "id" : "CVE-2024-45296",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48792",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2024-45296",
+      "source" : {
+        "url" : "https://github.com/pillarjs/path-to-regexp/commit/60f2121e9b66b7b622cc01080df0aabda9eedee6",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2024-45296",
+      "source" : {
+        "url" : "https://github.com/pillarjs/path-to-regexp/commit/29b96b4a1de52824e1ca0f49a701183cc4ed476f",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2024-45296",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-9wv6-86v2-598j",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-45296",
+      "source" : {
+        "url" : "https://github.com/pillarjs/path-to-regexp/security/advisories/GHSA-9wv6-86v2-598j",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2024-45296",
+      "source" : {
+        "url" : "https://security.netapp.com/advisory/ntap-20250124-0001/",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48792",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.099999904632568,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    } ],
+    "cwes" : [ ],
+    "description" : "path-to-regexp is vulnerable to Denial Of Service (DoS). The vulnerability is due to the generation of inefficient regular expressions when path strings contain two parameters within a single segment separated by a non-period character, allowing an attacker to cause high CPU usage and potentially disrupt the service.\n\n\n\n\n",
+    "recommendation" : "0.1.10",
+    "advisories" : [ {
+      "title" : "Denial Of Service (DoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-45296"
+    } ],
+    "created" : "2024-09-10T06:07:23.914Z",
+    "published" : "2024-09-09T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:path-to-regexp::0.1.7:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.0.1|<=0.1.9",
+        "status" : "affected"
+      }, {
+        "version" : "0.1.10",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-48792"
+    } ]
+  }, {
+    "bom-ref" : "npm:validator::13.5.2::sid-30061",
+    "id" : "SRCCLR-SID-30061",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-30061",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "SRCCLR-SID-30061",
+      "source" : {
+        "url" : "https://github.com/validatorjs/validator.js/issues/1597",
+        "name" : "GITHUB_ISSUE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-30061",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 5.0,
+      "severity" : "medium",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    } ],
+    "cwes" : [ ],
+    "description" : "validator is vulnerable to regular expression denial of service (ReDoS). The vulnerability exists through the value passed into `isEmail` which gets evaluated by the regular expression in `splitNameAddress`.",
+    "recommendation" : "13.6.0",
+    "advisories" : [ {
+      "title" : "Regular Expression Denial Of Service (ReDoS)",
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-30061"
+    } ],
+    "created" : "2021-04-21T04:29:57.188Z",
+    "affects" : [ {
+      "ref" : "npm:validator::13.5.2:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=11.0.0|<=13.5.2",
+        "status" : "affected"
+      }, {
+        "version" : "13.6.0",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-30061"
+    } ]
+  }, {
+    "bom-ref" : "npm:multer::1.4.5-lts.1::CVE-2025-47944",
+    "id" : "CVE-2025-47944",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-107123",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2025-47944",
+      "source" : {
+        "url" : "https://github.com/expressjs/multer/issues/1176",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2025-47944",
+      "source" : {
+        "url" : "https://github.com/expressjs/multer/commit/2c8505f207d923dd8de13a9f93a4563e59933665",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2025-47944",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-4pg4-qvpc-4q3h",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2025-47944",
+      "source" : {
+        "url" : "https://github.com/expressjs/multer/security/advisories/GHSA-4pg4-qvpc-4q3h",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-107123",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.099999904632568,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    } ],
+    "cwes" : [ 248 ],
+    "description" : "multer is vulnerable to Denial of Service (DoS). The vulnerability is  due to an unhandled exception triggered by a malformed multipart upload request that allows an attacker to crash the process.",
+    "recommendation" : "2.0.0",
+    "advisories" : [ {
+      "title" : "Denial Of Service (DoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2025-47944"
+    } ],
+    "created" : "2025-05-21T03:30:06.534Z",
+    "published" : "2025-05-19T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:multer::1.4.5-lts.1:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=1.4.4-lts.1|<=2.0.0-rc.4",
+        "status" : "affected"
+      }, {
+        "version" : "2.0.0",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-107123"
+    } ]
+  }, {
+    "bom-ref" : "npm:safe-eval::0.3.0::CVE-2023-26122",
+    "id" : "CVE-2023-26122",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-40124",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2023-26122",
+      "source" : {
+        "url" : "https://gist.github.com/seongil-wi/2db6cb884e10137a93132b7f74879cce",
+        "name" : "KNOWN_EXPLOIT"
+      }
+    }, {
+      "id" : "CVE-2023-26122",
+      "source" : {
+        "url" : "https://github.com/hacksparrow/safe-eval/issues/27",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2023-26122",
+      "source" : {
+        "url" : "https://github.com/hacksparrow/safe-eval/issues/31",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2023-26122",
+      "source" : {
+        "url" : "https://github.com/hacksparrow/safe-eval/issues/32",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2023-26122",
+      "source" : {
+        "url" : "https://github.com/hacksparrow/safe-eval/issues/33",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2023-26122",
+      "source" : {
+        "url" : "https://github.com/hacksparrow/safe-eval/issues/34",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2023-26122",
+      "source" : {
+        "url" : "https://github.com/hacksparrow/safe-eval/issues/35",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2023-26122",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-79xf-67r4-q2jj",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2023-26122",
+        "name" : "NVD"
+      },
+      "score" : 10.0,
+      "severity" : "critical",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-40124",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 10.0,
+      "severity" : "critical",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    } ],
+    "cwes" : [ 1321 ],
+    "description" : "safe-eval is vulnerable to Sandbox Bypass. The vulnerability exists due to improper input sanitization which allows an attacker to execute arbitrary codes into the system.",
+    "recommendation" : "",
+    "advisories" : [ {
+      "title" : "Remote Code Execution (RCE)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2023-26122"
+    } ],
+    "created" : "2023-04-12T14:33:36.850Z",
+    "published" : "2023-04-11T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:safe-eval::0.3.0:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.1.0|<=0.4.1",
+        "status" : "affected"
+      }, {
+        "version" : "",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-40124"
+    } ]
+  }, {
+    "bom-ref" : "npm:cookie::0.4.1::CVE-2024-47764",
+    "id" : "CVE-2024-47764",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-49083",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2024-47764",
+      "source" : {
+        "url" : "https://github.com/jshttp/cookie/commit/e10042845354fea83bd8f34af72475eed1dadf5c",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2024-47764",
+      "source" : {
+        "url" : "https://github.com/jshttp/cookie/pull/167",
+        "name" : "GITHUB_FIX_PR"
+      }
+    }, {
+      "id" : "CVE-2024-47764",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-pxg6-pf52-xh8x",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2024-47764",
+      "source" : {
+        "url" : "https://github.com/jshttp/cookie/security/advisories/GHSA-pxg6-pf52-xh8x",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-49083",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.800000190734863,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N"
+    } ],
+    "cwes" : [ ],
+    "description" : "cookie is vulnerable to Cookie Poisoning. The vulnerability is due to improper input validation for the cookie name, path, and domain fields, allowing these fields to be manipulated and alter other cookie attributes.",
+    "recommendation" : "0.7.0",
+    "advisories" : [ {
+      "title" : "Cookie Poisoning",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2024-47764"
+    } ],
+    "created" : "2024-10-09T04:18:26.540Z",
+    "published" : "2024-10-04T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:cookie::0.4.1:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.0.0|<=0.6.0",
+        "status" : "affected"
+      }, {
+        "version" : "0.7.0",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-49083"
+    } ]
+  }, {
+    "bom-ref" : "npm:lodash::4.17.15::CVE-2020-28500",
+    "id" : "CVE-2020-28500",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-29408",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2020-28500",
+      "source" : {
+        "url" : "https://github.com/lodash/lodash/pull/5065",
+        "name" : "GITHUB_FIX_PR"
+      }
+    }, {
+      "id" : "CVE-2020-28500",
+      "source" : {
+        "url" : "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-28500",
+      "source" : {
+        "url" : "https://security.netapp.com/advisory/ntap-20210312-0006/",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-28500",
+      "source" : {
+        "url" : "https://www.oracle.com/security-alerts/cpujan2022.html",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-28500",
+      "source" : {
+        "url" : "https://www.oracle.com/security-alerts/cpuoct2021.html",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-28500",
+      "source" : {
+        "url" : "https://www.oracle.com/security-alerts/cpujul2022.html",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-28500",
+      "source" : {
+        "url" : "https://github.com/lodash/lodash/blob/npm/trimEnd.js%23L8",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-28500",
+      "source" : {
+        "url" : "https://www.oracle.com//security-alerts/cpujul2021.html",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-28500",
+        "name" : "NVD"
+      },
+      "score" : 5.300000190734863,
+      "severity" : "medium",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-28500",
+        "name" : "NVD"
+      },
+      "score" : 5.0,
+      "severity" : "medium",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-29408",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 5.0,
+      "severity" : "medium",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    } ],
+    "cwes" : [ ],
+    "description" : "lodash is vulnerable to Regular Expression Denial Of Service (ReDoS). The usage of the insecure regex `/\\s+$/` allows an attacker to cause exponential processing time which could eventually lead to a denial of service condition.",
+    "recommendation" : "4.17.21",
+    "advisories" : [ {
+      "title" : "Regular Expression Denial Of Service (ReDoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-28500"
+    } ],
+    "created" : "2021-02-16T04:13:54.813Z",
+    "published" : "2021-02-15T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:lodash::4.17.15:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=4.0.0|<=4.17.20",
+        "status" : "affected"
+      }, {
+        "version" : "4.17.21",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-29408"
+    } ]
+  }, {
+    "bom-ref" : "npm:minimist::0.0.10::CVE-2020-7598",
+    "id" : "CVE-2020-7598",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-22678",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2020-7598",
+      "source" : {
+        "url" : "https://github.com/substack/minimist/commit/63e7ed05aa4b1889ec2f3b196426db4500cbda94",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2020-7598",
+      "source" : {
+        "url" : "http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00024.html",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-7598",
+      "source" : {
+        "url" : "https://github.com/substack/minimist/commit/4cf1354839cb972e38496d35e12f806eea92c11f",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-7598",
+        "name" : "NVD"
+      },
+      "score" : 5.599999904632568,
+      "severity" : "medium",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-7598",
+        "name" : "NVD"
+      },
+      "score" : 6.800000190734863,
+      "severity" : "medium",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-22678",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 6.400000095367432,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    } ],
+    "cwes" : [ 1321 ],
+    "description" : "minimist is vulnerable to prototype pollution. The library allows an attacker to modify properties of Object.prototype using a `constructor` or `__proto__` payload.",
+    "recommendation" : "0.2.1",
+    "advisories" : [ {
+      "title" : "Prototype Pollution",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-7598"
+    } ],
+    "created" : "2020-03-12T05:22:55.910Z",
+    "published" : "2020-03-11T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:minimist::0.0.10:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.0.0|<=0.2.0",
+        "status" : "affected"
+      }, {
+        "version" : "0.2.1",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-22678"
+    } ]
+  }, {
+    "bom-ref" : "npm:uglify-js::2.4.24::CVE-2022-37598",
+    "id" : "CVE-2022-37598",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-37646",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2022-37598",
+      "source" : {
+        "url" : "https://github.com/mishoo/UglifyJS/blob/352a944868b09c9ce3121a49d4a0bf0afe370a35/lib/ast.js#L79",
+        "name" : "VULNERABLE_LINE"
+      }
+    }, {
+      "id" : "CVE-2022-37598",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-wx5g-37jh-9gcr",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2022-37598",
+      "source" : {
+        "url" : "https://github.com/mishoo/UglifyJS/blob/352a944868b09c9ce3121a49d4a0bf0afe370a35/lib/ast.js#L46",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2022-37598",
+      "source" : {
+        "url" : "https://github.com/mishoo/UglifyJS/issues/5699",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2022-37598",
+      "source" : {
+        "url" : "https://github.com/mishoo/UglifyJS/issues/5721#issuecomment-1292849604",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2022-37598",
+        "name" : "NVD"
+      },
+      "score" : 9.800000190734863,
+      "severity" : "critical",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-37646",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    } ],
+    "cwes" : [ 1321 ],
+    "description" : "uglify-js is vulnerable to prototype pollution. The vulnerability exists in `DEFNODE` function of `ast.js` via the name variable which allows an attacker to inject malicious property resulting in prototype pollution.",
+    "recommendation" : "3.13.10",
+    "advisories" : [ {
+      "title" : "Prototype Pollution",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2022-37598"
+    } ],
+    "created" : "2022-10-21T15:21:58.471Z",
+    "published" : "2022-10-20T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:uglify-js::2.4.24:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=2.1.1|<=3.13.9",
+        "status" : "affected"
+      }, {
+        "version" : "3.13.10",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-37646"
+    } ]
+  }, {
+    "bom-ref" : "npm:axios::0.18.0::sid-45276",
+    "id" : "SRCCLR-SID-45276",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-45276",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "SRCCLR-SID-45276",
+      "source" : {
+        "url" : "https://github.com/axios/axios/commit/5e7ad38fb0f819fceb19fb2ee5d5d38f56aa837d",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "SRCCLR-SID-45276",
+      "source" : {
+        "url" : "https://github.com/axios/axios/pull/6132",
+        "name" : "GITHUB_FIX_PR"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-45276",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 5.0,
+      "severity" : "medium",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    } ],
+    "cwes" : [ ],
+    "description" : "Axios is vulnerable to Regular Expression Denial of Service (ReDoS). This vulnerability is due to the use of a regex with inefficient time complexity when parsing URLS with many `/` characters within the `combineURLs` method. This vulnerability results in Denial of Service if an attacker can manipulate input to the `combineURLs` method.",
+    "recommendation" : "1.6.3",
+    "advisories" : [ {
+      "title" : "Regular Expression Denial Of Service (ReDoS)",
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-45276"
+    } ],
+    "created" : "2024-02-01T19:13:43.330Z",
+    "affects" : [ {
+      "ref" : "npm:axios::0.18.0:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.1.0|<=1.6.2",
+        "status" : "affected"
+      }, {
+        "version" : "1.6.3",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-45276"
+    } ]
+  }, {
+    "bom-ref" : "npm:lodash::4.17.15::CVE-2020-8203",
+    "id" : "CVE-2020-8203",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-25079",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2020-8203",
+      "source" : {
+        "url" : "https://github.com/lodash/lodash/issues/4744",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2020-8203",
+      "source" : {
+        "url" : "https://github.com/lodash/lodash/pull/4759",
+        "name" : "GITHUB_FIX_PR"
+      }
+    }, {
+      "id" : "CVE-2020-8203",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-p6mc-m468-83gw",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2020-8203",
+      "source" : {
+        "url" : "https://hackerone.com/reports/712065",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2020-8203",
+      "source" : {
+        "url" : "https://github.com/lodash/lodash/issues/4874",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-8203",
+      "source" : {
+        "url" : "https://security.netapp.com/advisory/ntap-20200724-0006/",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-8203",
+      "source" : {
+        "url" : "https://www.oracle.com/security-alerts/cpuApr2021.html",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-8203",
+      "source" : {
+        "url" : "https://www.oracle.com/security-alerts/cpuapr2022.html",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-8203",
+      "source" : {
+        "url" : "https://www.oracle.com/security-alerts/cpujan2022.html",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-8203",
+      "source" : {
+        "url" : "https://www.oracle.com/security-alerts/cpuoct2021.html",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-8203",
+      "source" : {
+        "url" : "https://www.oracle.com//security-alerts/cpujul2021.html",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2020-8203",
+      "source" : {
+        "url" : "https://www.npmjs.com/advisories/1523",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-8203",
+        "name" : "NVD"
+      },
+      "score" : 7.400000095367432,
+      "severity" : "high",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-8203",
+        "name" : "NVD"
+      },
+      "score" : 5.800000190734863,
+      "severity" : "medium",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:M/Au:N/C:N/I:P/A:P"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-25079",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    } ],
+    "cwes" : [ 1321 ],
+    "description" : "lodash is vulnerable to prototype pollution attack. The vulnerability exists due to the ability to inject properties on Object.prototype using the function `zipObjectDeep`, leading to DoS, and possibly other forms of attacks.",
+    "recommendation" : "4.17.19",
+    "advisories" : [ {
+      "title" : "Prototype Pollution",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2020-8203"
+    } ],
+    "created" : "2020-04-28T09:42:14.735Z",
+    "published" : "2020-07-15T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:lodash::4.17.15:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=4.17.4|<=4.17.18",
+        "status" : "affected"
+      }, {
+        "version" : "4.17.19",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-25079"
+    } ]
+  }, {
+    "bom-ref" : "npm:lodash::4.17.15::sid-25849",
+    "id" : "SRCCLR-SID-25849",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-25849",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "SRCCLR-SID-25849",
+      "source" : {
+        "url" : "https://github.com/lodash/lodash/pull/4518",
+        "name" : "GITHUB_FIX_PR"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-25849",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 6.800000190734863,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    } ],
+    "cwes" : [ ],
+    "description" : "lodash is vulnerable to injection vulnerability. An attacker can inject malicious code via `sourceURL` since it is not sanitized for the user-provided code that leads to the `eval()` function.",
+    "recommendation" : "4.17.16",
+    "advisories" : [ {
+      "title" : "Code Injection",
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-25849"
+    } ],
+    "created" : "2020-07-09T08:03:14.380Z",
+    "affects" : [ {
+      "ref" : "npm:lodash::4.17.15:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.9.0|<=4.17.15",
+        "status" : "affected"
+      }, {
+        "version" : "4.17.16",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-25849"
+    } ]
+  }, {
+    "bom-ref" : "npm:on-headers::1.0.2::CVE-2025-7339",
+    "id" : "CVE-2025-7339",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-110431",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2025-7339",
+      "source" : {
+        "url" : "https://github.com/expressjs/morgan/issues/315",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2025-7339",
+      "source" : {
+        "url" : "https://cna.openjsf.org/security-advisories.html",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2025-7339",
+      "source" : {
+        "url" : "https://github.com/jshttp/on-headers/issues/15",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2025-7339",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-76c9-3jph-rj3q",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2025-7339",
+      "source" : {
+        "url" : "https://github.com/jshttp/on-headers/commit/c6e384908c9c6127d18831d16ab0bd96e1231867",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2025-7339",
+      "source" : {
+        "url" : "https://github.com/jshttp/on-headers/security/advisories/GHSA-76c9-3jph-rj3q",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-110431",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 2.9000000953674316,
+      "severity" : "low",
+      "method" : "other",
+      "vector" : "AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N"
+    } ],
+    "cwes" : [ ],
+    "description" : "on-headers is vulnerable to Improper Handling of HTTP Headers. The vulnerability is due to unexpected header modification caused by incorrect processing when an array is passed to response.writeHead(), potentially altering response headers unintentionally.",
+    "recommendation" : "1.1.0",
+    "advisories" : [ {
+      "title" : "Improper Handling Of HTTP Headers",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2025-7339"
+    } ],
+    "created" : "2025-07-21T06:46:04.433Z",
+    "published" : "2025-07-17T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:on-headers::1.0.2:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.0.0|<=1.0.2",
+        "status" : "affected"
+      }, {
+        "version" : "1.1.0",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-110431"
+    } ]
+  }, {
+    "bom-ref" : "npm:axios::0.18.0::CVE-2019-10742",
+    "id" : "CVE-2019-10742",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-6130",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2019-10742",
+      "source" : {
+        "url" : "https://github.com/axios/axios/issues/1098",
+        "name" : "GITHUB_ISSUE"
+      }
+    }, {
+      "id" : "CVE-2019-10742",
+      "source" : {
+        "url" : "https://github.com/axios/axios/commit/79a1ed204f4c2971b573edde816b3a43b25240da",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2019-10742",
+      "source" : {
+        "url" : "https://github.com/axios/axios/pull/1485",
+        "name" : "GITHUB_FIX_PR"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10742",
+        "name" : "NVD"
+      },
+      "score" : 7.5,
+      "severity" : "high",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10742",
+        "name" : "NVD"
+      },
+      "score" : 5.0,
+      "severity" : "medium",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+    } ],
+    "cwes" : [ 755 ],
+    "description" : "axios is vulnerable to Denial Of Service (DoS). The vulnerability exists as content can continue to be sent through the stream even after the request has exceeded the `maxContentLength`, potentially causing a denial of service attack.",
+    "recommendation" : "0.18.1",
+    "advisories" : [ {
+      "title" : "Denial Of Service (DoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10742"
+    } ],
+    "created" : "2018-04-17T08:21:38.712Z",
+    "published" : "2019-05-07T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:axios::0.18.0:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.10.0|<=0.18.0",
+        "status" : "affected"
+      }, {
+        "version" : "0.18.1",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-6130"
+    } ]
+  }, {
+    "bom-ref" : "npm:multer::1.4.5-lts.1::CVE-2025-47935",
+    "id" : "CVE-2025-47935",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-107124",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2025-47935",
+      "source" : {
+        "url" : "https://github.com/expressjs/multer/commit/2c8505f207d923dd8de13a9f93a4563e59933665",
+        "name" : "GITHUB_FIX_COMMIT"
+      }
+    }, {
+      "id" : "CVE-2025-47935",
+      "source" : {
+        "url" : "https://github.com/expressjs/multer/pull/1120",
+        "name" : "GITHUB_FIX_PR"
+      }
+    }, {
+      "id" : "CVE-2025-47935",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-44fp-w29j-9vj5",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2025-47935",
+      "source" : {
+        "url" : "https://github.com/expressjs/multer/security/advisories/GHSA-44fp-w29j-9vj5",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-107124",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 7.099999904632568,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    } ],
+    "cwes" : [ 401 ],
+    "description" : "Multer is vulnerable to Denial Of Service (DoS). The vulnerability is due to improper handling of error events in HTTP request streams causes internal streams (like busboy) to remain open, allows an attacker to exhaust server resources.",
+    "recommendation" : "2.0.0",
+    "advisories" : [ {
+      "title" : "Denial Of Service (DoS)",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2025-47935"
+    } ],
+    "created" : "2025-05-21T03:30:58.243Z",
+    "published" : "2025-05-19T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:multer::1.4.5-lts.1:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.0.1|<=2.0.0-rc.4",
+        "status" : "affected"
+      }, {
+        "version" : "2.0.0",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-107124"
+    } ]
+  }, {
+    "bom-ref" : "npm:lodash::4.17.15::CVE-2021-23337",
+    "id" : "CVE-2021-23337",
+    "source" : {
+      "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-29405",
+      "name" : "Veracode Vulnerability Database"
+    },
+    "references" : [ {
+      "id" : "CVE-2021-23337",
+      "source" : {
+        "url" : "https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js#L14851",
+        "name" : "VULNERABLE_LINE"
+      }
+    }, {
+      "id" : "CVE-2021-23337",
+      "source" : {
+        "url" : "https://github.com/advisories/GHSA-35jh-r3h4-6jhm",
+        "name" : "OTHER"
+      }
+    }, {
+      "id" : "CVE-2021-23337",
+      "source" : {
+        "url" : "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2021-23337",
+      "source" : {
+        "url" : "https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js%23L14851",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2021-23337",
+      "source" : {
+        "url" : "https://security.netapp.com/advisory/ntap-20210312-0006/",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2021-23337",
+      "source" : {
+        "url" : "https://www.oracle.com/security-alerts/cpujan2022.html",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2021-23337",
+      "source" : {
+        "url" : "https://www.oracle.com/security-alerts/cpuoct2021.html",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2021-23337",
+      "source" : {
+        "url" : "https://www.oracle.com//security-alerts/cpujul2021.html",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2021-23337",
+      "source" : {
+        "url" : "https://www.oracle.com/security-alerts/cpujul2022.html",
+        "name" : "VENDOR_DISCLOSURE"
+      }
+    }, {
+      "id" : "CVE-2021-23337",
+      "source" : {
+        "url" : "https://www.npmjs.com/advisories/1673",
+        "name" : "OTHER"
+      }
+    } ],
+    "ratings" : [ {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2021-23337",
+        "name" : "NVD"
+      },
+      "score" : 7.199999809265137,
+      "severity" : "high",
+      "method" : "CVSSv3",
+      "vector" : "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }, {
+      "source" : {
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2021-23337",
+        "name" : "NVD"
+      },
+      "score" : 6.5,
+      "severity" : "medium",
+      "method" : "CVSSv2",
+      "vector" : "AV:N/AC:L/Au:S/C:P/I:P/A:P"
+    }, {
+      "source" : {
+        "url" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-29405",
+        "name" : "Veracode Vulnerability Database"
+      },
+      "score" : 6.800000190734863,
+      "severity" : "high",
+      "method" : "other",
+      "vector" : "AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H"
+    } ],
+    "cwes" : [ 94 ],
+    "description" : "lodash is vulnerable to Command Injection. The vulnerability exists through the unsanitized values of `template`.",
+    "recommendation" : "4.17.21",
+    "advisories" : [ {
+      "title" : "Command Injection",
+      "url" : "https://nvd.nist.gov/vuln/detail/CVE-2021-23337"
+    } ],
+    "created" : "2021-02-16T01:50:12.802Z",
+    "published" : "2021-02-15T00:00:00.000Z",
+    "affects" : [ {
+      "ref" : "npm:lodash::4.17.15:",
+      "versions" : [ {
+        "range" : "vers:NPM/>=0.1.0|<=4.17.20",
+        "status" : "affected"
+      }, {
+        "version" : "4.17.21",
+        "status" : "unaffected"
+      } ]
+    } ],
+    "properties" : [ {
+      "name" : "Veracode Vulnerability DB Link",
+      "value" : "https://sca.analysiscenter.veracode.com/vulnerability-database/security/NPM/JS/sid-29405"
+    } ]
+  } ]
+}
