@@ -84,16 +84,16 @@ async function processLogin(req, res) {
 			/* START BAD CODE */
 			// Execute the query
 			console.log("Creating the Statement");
-			const sqlQuery = "select username, password, password_hint, created_at, last_login, \
-			real_name, blab_name from users where username='" + username + "' \
-			and password='" + crypto.createHash('md5').update(password).digest("hex") + "';"
-			console.log("Execute the Statement");
-			const result = await dbconnector.query(sqlQuery);
+			// const sqlQuery = "select username, password, password_hint, created_at, last_login, \
+			// real_name, blab_name from users where username='" + username + "' \
+			// and password='" + crypto.createHash('md5').update(password).digest("hex") + "';"
+			// console.log("Execute the Statement");
+			// const result = await dbconnector.query(sqlQuery);
 			/* END BAD CODE */
 			/* START GOOD CODE */
-			// const sqlQuery = "select * from users where username=? and password=?;";
-			// console.log("Executing the PreparedStatement");
-			// const result = await dbconnector.query([username, crypto.createHash('md5').update(password).digest("hex")]);
+			const sqlQuery = "select * from users where username=? and password=?;";
+			console.log("Executing the PreparedStatement");
+			const result = await dbconnector.query([username, crypto.createHash('md5').update(password).digest("hex")]);
 			/* END GOOD CODE */
 
 			// Did we find exactly 1 user that matched?

@@ -6,3 +6,4 @@ resources/*
 .npmrcs
 # veracode cli-created package
 verademo-javascript.zip
+.veracode/
